@@ -11,6 +11,8 @@ import antd from "../../assets/icons/ant.svg"
 import next from "../../assets/icons/next.svg"
 import typScript from "../../assets/icons/typescript.svg"
 import node from "../../assets/icons/node.svg"
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 const techs = [
   { src: css3, alt: 'CSS3' },
   { src: html, alt: 'HTML5' },
@@ -27,6 +29,10 @@ const techs = [
   { src: node, alt: 'NODE JS' }
 ];
 const Skills = () => {
+
+  AOS.init({
+
+  });
   return (
     <section className="mt-[150px] text-center">
       <h1 className="text-[20px]  md:text-[50px] font-bold title text-gray-800 mb-2">My Tech Stack</h1>
@@ -34,6 +40,7 @@ const Skills = () => {
       <div className="grid mb-[150px] mt-[100px] grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-20">
         {techs.map((tech, index) => (
           <img 
+            data-aos="zoom-in"
             key={index} 
             src={tech.src} 
             alt={tech.alt} 

@@ -6,7 +6,13 @@ import instagram from "../../assets/icons/instagram.svg";
 import telegram from "../../assets/icons/telegram-brands-solid.svg";
 import { Link } from "react-router-dom";
 
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 const Contact = () => {
+
+  AOS.init({
+    
+  })
   return (
     <section className="mb-[150px] my-[80px]">
       <div>
@@ -16,9 +22,8 @@ const Contact = () => {
           </h2>
         </div>
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 items-center gap-5 justify-around my-[80px]">
-
-          
           <Link
+            data-aos="zoom-in"
             className="capitalize flex flex-col items-center gap-3 rounded-full text-red-500"
             to="https://tashkent.hh.uz/applicant/settings?from=header_new&hhtmFromLabel=header_new&hhtmFrom=main"
           >
@@ -26,6 +31,7 @@ const Contact = () => {
             <h2 className="text-[20px] font-bold text">hh</h2>
           </Link>
           <Link
+            data-aos="zoom-in"
             className="capitalize flex flex-col items-center gap-3 rounded-full text-blue-600"
             to="https://www.linkedin.com/in/sindor-olmasov-8848222b7/"
           >
@@ -33,6 +39,7 @@ const Contact = () => {
             <h2 className="text-[20px] font-bold text">linkedin</h2>
           </Link>
           <Link
+            data-aos="zoom-in"
             className="capitalize flex flex-col items-center gap-3 rounded-full text-[#000]"
             to="https://github.com/SindorDev"
           >
@@ -40,6 +47,7 @@ const Contact = () => {
             <h2 className="text-[20px] font-bold text">github</h2>
           </Link>
           <Link
+            data-aos="zoom-in"
             className="capitalize flex flex-col items-center gap-3 rounded-full text-[#000]"
             to="https://www.instagram.com/sindor_.7/"
           >
@@ -47,6 +55,7 @@ const Contact = () => {
             <h2 className="text-[20px] font-bold text">instagram</h2>
           </Link>
           <Link
+            data-aos="zoom-in"
             className="capitalize flex flex-col items-center gap-3 rounded-full text-[#2EA1D7]"
             to="https://t.me/sindor_712"
           >
@@ -54,6 +63,7 @@ const Contact = () => {
             <h2 className="text-[20px] font-bold text">telegram</h2>
           </Link>
           <Link
+            data-aos="zoom-in"
             className="capitalize flex flex-col items-center gap-3 rounded-full text-[#888]"
             to="mailto:sindor77@gmail.com"
           >
@@ -61,8 +71,7 @@ const Contact = () => {
             <h2 className="text-[20px]  font-bold text">GMAIL</h2>
           </Link>
         </div>
-        <div>
-        </div>
+        <div></div>
       </div>
     </section>
   );

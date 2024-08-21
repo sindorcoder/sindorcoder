@@ -3,7 +3,8 @@ import line from "../../assets/icons/Line.svg"
 
 const ExperienceBox = ({ title, coding, css3, javascript, using, adobe, creating, userInterface  }) => (
   <div>
-    <div className="flex items-start gap-[23px]">
+    <div data-aos="fade-up"
+     data-aos-duration="1000" className="flex items-start gap-[23px]">
     <img src={line} alt="divider" className="my-2"/>
     <div className="flex flex-col gap-2">
     <h3 className="text-lg title font-extrabold mb-2">{title}</h3>

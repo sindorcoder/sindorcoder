@@ -1,7 +1,14 @@
-import { Link } from "react-router-dom"
+import { Link, useLocation } from "react-router-dom"
 import projectData from "../../data/index"
-
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 const AmazingP = () => {
+  const {pathname} = useLocation()
+
+  console.log(pathname);
+  AOS.init({
+
+  });
 
   return (
     <section className="mt-[100px]">
@@ -13,7 +20,8 @@ const AmazingP = () => {
             {
               projectData.slice(0, 3).map((item) => {
                 return (
-                  <div key={item.id} className="w-full max-w-[360px] hover:shadow-2xl hover:border-transparent p-[30px] bg-slate-100 border-slate-200 border-2 rounded-xl">
+                  <div data-aos-anchor-placement="bottom-bottom" data-aos-delay="50" 
+                  data-aos-offset="0" key={item.id} data-aos="fade-up" className="w-full max-w-[360px] hover:shadow-2xl hover:border-transparent p-[30px] bg-slate-100 border-slate-200 border-2 rounded-xl">
                     <h2 className="text-[20px] font-normal title text-black">{item.title}</h2>
                     <p className=" text-[12px] md:text-[14px] lg:text-[16px] text-black leading-6 text font-semibold my-[20px]">{item.text}</p>
                     <div className="flex items-center gap-2">
@@ -34,10 +42,15 @@ const AmazingP = () => {
               })
             }
           </div>
-          
+
+          {
+            pathname !== "/project" && (
+              
           <div className="flex items-center justify-center w-full my-[70px]">
-            <Link to="/project" className="text-black title py-2 px-5 bg-slate-50 shadow-cm flex justify-center items-center rounded-full">See More Project</Link>
-              </div>          
+          <Link to="/project" className="text-black title py-2 px-5 bg-slate-50 shadow-cm flex justify-center items-center rounded-full">See More Project</Link>
+        </div>
+            ) 
+          }          
       </div>
     </section>
   )

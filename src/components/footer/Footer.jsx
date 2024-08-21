@@ -1,10 +1,10 @@
 import logo from "../../assets/icons/logo.svg"
 const Footer = () => {
   return (
-     <footer>
+     <footer className="mt-[150px]">
           <div>
                <div className="w-full bg-[#a4a4a4] h-1 rounded-full "></div>
-               <div className="mt-[50px] mb-[10px] flex items-center justify-between">
+               <div data-aos="fade-up" className="mt-[50px] mb-[10px] flex items-center justify-between">
                     <img src={logo} width={120} alt="logo cites" />
                     <div className="text-end flex flex-col gap-2">
                     <p className="text-[14px] text-[#808080]">design & coding by <span className="!text-[#000]">me</span></p>
