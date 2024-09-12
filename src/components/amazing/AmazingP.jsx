@@ -2,10 +2,10 @@ import { Link, useLocation } from "react-router-dom"
 import projectData from "../../data/index"
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-const AmazingP = () => {
+import { Fragment } from "react";
+const AmazingP = ({end}) => {
   const {pathname} = useLocation()
 
-  console.log(pathname);
   AOS.init({
 
   });
@@ -16,9 +16,9 @@ const AmazingP = () => {
           <div className="bg-slate-50 p-2 flex items-center shadow-cm justify-center w-full max-w-[80px] md:max-w-[150px] rounded-full">
           <h2 className="text-[12px] md:text-[20px] capitalize title text-black"> project</h2>
           </div>
-          <div className="grid grid-cols-1 place-items-center  md:grid-cols-3  gap-5 mt-[50px]">
+          <div className="grid grid-cols-1 place-items-center  md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4  gap-5 mt-[50px]">
             {
-              projectData.slice(0, 3).map((item) => {
+              projectData.slice(0, end).map((item) => {
                 return (
                   <div data-aos-anchor-placement="bottom-bottom" data-aos-delay="50" 
                   data-aos-offset="0" key={item.id} data-aos="fade-up" className="w-full max-w-[360px] hover:shadow-2xl hover:border-transparent p-[30px] bg-slate-100 border-slate-200 border-2 rounded-xl">
@@ -26,8 +26,8 @@ const AmazingP = () => {
                     <p className=" text-[12px] md:text-[14px] lg:text-[16px] text-black leading-6 text font-semibold my-[20px]">{item.text}</p>
                     <div className="flex items-center gap-2">
                     {
-                      item.type.map((type) => {
-                        return <> <button className="py-[4px] text-[10px] md:text-[12px] lg:text-[16px] mb-5 px-[14px] bg-slate-400 text-white text font-bold text-center  rounded-full">{type}</button> </>
+                      item?.type?.map((type) => {
+                        return <Fragment key={type}> <button className="py-[4px] text-[8px] md:text-[10px] lg:text-[14px] mb-5 px-[14px] bg-slate-400 text-white text font-bold text-center  rounded-full">{type}</button> </Fragment>
                       })
                     }
                     </div>
