@@ -4,7 +4,6 @@ import Home from "./home/Home"
 import About from "./about/About"
 import Project from "./project/Project"
 import Skills from "./skills/Skills"
-import Footer from "../components/footer/Footer"
 import { useEffect } from "react"
 const RouteController = () => {
      const {pathname} = useLocation()
@@ -23,7 +22,6 @@ const RouteController = () => {
        <Route path="/project" element={<Project/>}/>
   </Route>
 </Routes>
-  <Footer/>
   </>
  )
 }

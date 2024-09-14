@@ -10,6 +10,7 @@ import avatar from "../../assets/icons/AvatarAndIcons.svg";
 import ExperienceBox from "../../components/exprienceBox/ExprienceBox";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import Footer from "../../components/footer/Footer";
 const About = () => {
 
   AOS.init({
@@ -19,6 +20,7 @@ const About = () => {
   return (
     <>
       <section className="my-[150px]">
+
         <div className="bg-slate-50 p-2 flex items-center shadow-cm justify-center w-full max-w-[80px] md:max-w-[150px] rounded-full">
           <h2 className="text-[14px] md:text-[20px] capitalize title text-black">
             About
@@ -35,6 +37,7 @@ const About = () => {
               />
             </div>
             <div  data-aos="zoom-in-up" data-aos-offset="300" data-aos-easing="ease-in-sine" className="w-full">
+
               <h2 className="title text-[24px] md:text-[30px] text-slate-700">
                 Hi, I'm Sindor
               </h2>
@@ -67,9 +70,10 @@ const About = () => {
                 </Link>
 
                 <Link
-                  to={"/path-to-your-resume-file.pdf"}
-                  download={true}
-                  className=" text-[10px] flex items-center gap-5 md:text-[14px] font-semibold text-black"
+                  to="https://drive.google.com/file/d/12apknnrptCVRLixEpEH-bYi_y4yL0DJx/view"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-[10px] flex items-center gap-5 md:text-[14px] font-semibold text-black"
                 >
                   <button className="Btn">
                     <img src={downloads} alt="downloads" />
@@ -170,6 +174,7 @@ const About = () => {
           />
         </div>
       </section>
+      <Footer/>
     </>
   );
 };

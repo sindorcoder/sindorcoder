@@ -8,6 +8,20 @@ import walk from "../assets/images/walk.png"
 import expence from "../assets/images/expence.png"
 import car from "../assets/images/car.png"
 import ecomerce from "../assets/images/ecomerce.png"
+
+import html from "../assets/icons/html5.svg"
+import css3 from "../assets/icons/css.svg"
+import js from "../assets/icons/javascript.svg"
+import react from "../assets/icons/react.svg"
+import sass from "../assets/icons/sass.svg"
+import tailwind from "../assets/icons/tailwind.svg"
+import bootstrap from "../assets/icons/bootstrap.svg"
+import git from "../assets/icons/git.svg"
+import redux from "../assets/icons/redux.svg"
+import antd from "../assets/icons/ant.svg"
+import next from "../assets/icons/next.svg"
+import typScript from "../assets/icons/typescript.svg"
+import node from "../assets/icons/node.svg"
 const projectData = [
   {
     title: "Weather App",
@@ -94,6 +108,23 @@ const projectData = [
       type: ["HTML", "CSS", "Javascript"],
       image: ecomerce
     }
+];
+
+export const techs = [
+  
+  { src: css3, alt: 'CSS3' },
+  { src: html, alt: 'HTML5' },
+  { src: tailwind, alt: 'Tailwind CSS' },
+  { src: bootstrap, alt: 'Bootstrap' },
+  { src: js, alt: 'JavaScript' },
+  { src: react, alt: 'React' },
+  { src: sass, alt: 'Sass' },
+  { src: git, alt: 'Git' },
+  { src: redux, alt: 'Redux' },
+  { src: typScript, alt: 'TypeScript' },
+  { src: antd, alt: 'ANT DESIGN' },
+  { src: next, alt: 'NEXT JS' },
+  { src: node, alt: 'NODE JS' }
 ];
 
 export default projectData;
