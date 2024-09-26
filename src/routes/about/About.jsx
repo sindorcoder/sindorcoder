@@ -4,7 +4,6 @@ import interfaceWeb from "../../assets/icons/design.svg";
 import coding from "../../assets/icons/conntection.svg";
 import react from "../../assets/icons/builder.svg";
 import word from "../../assets/icons/ui.svg";
-import downloads from "../../assets/icons/download.svg";
 import { Link } from "react-router-dom";
 import avatar from "../../assets/icons/AvatarAndIcons.svg";
 import ExperienceBox from "../../components/exprienceBox/ExprienceBox";
@@ -52,34 +51,30 @@ const About = () => {
               <div className="flex justify-center md:justify-center lg:justify-start items-center gap-5 mt-[20px]">
                 <Link
                   to={"https://www.instagram.com/sindor_.7/"}
-                  className=" text-[10px] md:text-[14px] font-semibold text-black"
+                  className=" text-[10px] border-b-2 border-emerald-600 md:text-[14px] font-semibold text-black"
                 >
                   INSTAGRAM
                 </Link>
                 <Link
                   to={"https://github.com/SindorDev"}
-                  className=" text-[10px] md:text-[14px] font-semibold text-black"
+                  className=" text-[10px] border-b-2 border-emerald-600 md:text-[14px] font-semibold text-black"
                 >
                   GITHUB
                 </Link>
                 <Link
                   to={"mailto:sindordev77@gmail.com"}
-                  className=" text-[10px] md:text-[14px] font-semibold text-black"
+                  className=" text-[10px] border-b-2 border-emerald-600 md:text-[14px] font-semibold text-black"
                 >
                   EMAIL
                 </Link>
 
                 <Link
-                  to="https://drive.google.com/file/d/12apknnrptCVRLixEpEH-bYi_y4yL0DJx/view"
+                  to="https://drive.google.com/file/d/1twNkp2wxJEE5Lq2zCTsLAZj_buKrurwV/view"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-[10px] flex items-center gap-5 md:text-[14px] font-semibold text-black"
+                  className="text-[10px] border-b-2 border-emerald-600 flex items-center gap-5 md:text-[14px] font-semibold text-black"
                 >
-                  <button className="Btn">
-                    <img src={downloads} alt="downloads" />
-                    <span className="icon2"></span>
-                    <span className="tooltip">Resume CV</span>
-                  </button>
+                    RESUME CV
                 </Link>
               </div>
             </div>
