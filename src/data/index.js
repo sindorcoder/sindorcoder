@@ -22,6 +22,8 @@ import antd from "../assets/icons/ant.svg"
 import next from "../assets/icons/next.svg"
 import typScript from "../assets/icons/typescript.svg"
 import node from "../assets/icons/node.svg"
+import vuejs from "../assets/icons/vue-svgrepo-com.svg"
+import MUI from "../assets/icons/material-ui-svgrepo-com.svg"
 const projectData = [
   {
     title: "Weather App",
@@ -124,7 +126,9 @@ export const techs = [
   { src: typScript, alt: 'TypeScript' },
   { src: antd, alt: 'ANT DESIGN' },
   { src: next, alt: 'NEXT JS' },
-  { src: node, alt: 'NODE JS' }
+  { src: node, alt: 'NODE JS' },
+  { src: vuejs, alt: "VUE JS" },
+  { src: MUI, alt: "MATERIAL UI" }
 ];
 
 export default projectData;

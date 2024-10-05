@@ -1,3 +1,4 @@
+import { BiPhone } from "react-icons/bi"; 
 import { SiKnowledgebase } from "react-icons/si";
 import { TbBriefcase2Filled } from "react-icons/tb";
 import { AiFillHome } from "react-icons/ai"; 
@@ -18,14 +19,14 @@ const Navbar = () => {
           <li>
             <NavLink className=" text-[14px] md:text-[18px] text-black text border-b-[3px] border-transparent hover:border-b-[3px] hover:border-black duration-150 delay-100 " to="/about">
             <span className="hidden md:inline">About Me</span>
-            <AiFillHome size={27} color="#588157" className="inline md:hidden" />
+            <AiFillHome size={27} color="#000" className="inline md:hidden" />
             </NavLink>
           </li>
           
           <li>
             <NavLink className=" text-[14px] md:text-[18px] text-black text border-b-[3px] border-transparent hover:border-b-[3px] hover:border-black duration-150 delay-100 " to="/skills">
             <span className="hidden md:inline">Skills</span>
-            <SiKnowledgebase size={27} color="#588157" className="inline md:hidden" />
+            <SiKnowledgebase size={27} color="#000" className="inline md:hidden" />
             </NavLink>
           </li>
           <li>
@@ -33,7 +34,7 @@ const Navbar = () => {
             <span className="hidden md:inline">
             Project
             </span>
-            <TbBriefcase2Filled size={27} color="#588157" className="inline md:hidden" />            
+            <TbBriefcase2Filled size={27} color="#000" className="inline md:hidden" />            
             </NavLink>
           </li>
         </ul>

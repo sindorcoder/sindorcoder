@@ -14,7 +14,7 @@ const Contact = () => {
     
   })
   return (
-    <section className="mb-[150px] my-[80px]">
+    <section className="mb-[150px] my-[80px]" id="contact">
       <div>
         <div className="bg-slate-50 p-2 flex items-center shadow-cm justify-center w-full max-w-[150px] md:max-w-[200px] rounded-full">
           <h2 className="text-[14px] md:text-[20px] capitalize title text-black">
