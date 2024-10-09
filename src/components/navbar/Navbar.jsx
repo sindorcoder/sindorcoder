@@ -1,4 +1,3 @@
-import { BiPhone } from "react-icons/bi"; 
 import { SiKnowledgebase } from "react-icons/si";
 import { TbBriefcase2Filled } from "react-icons/tb";
 import { AiFillHome } from "react-icons/ai"; 
@@ -17,20 +16,20 @@ const Navbar = () => {
         <ul className="flex item-center gap-5 md:gap-9">
           
           <li>
-            <NavLink className=" text-[14px] md:text-[18px] text-black text border-b-[3px] border-transparent hover:border-b-[3px] hover:border-black duration-150 delay-100 " to="/about">
+            <NavLink className=" text-[14px] md:text-[18px] text-black text border-b-[3px] border-transparent duration-150 delay-100 " to="/about">
             <span className="hidden md:inline">About Me</span>
             <AiFillHome size={27} color="#000" className="inline md:hidden" />
             </NavLink>
           </li>
           
           <li>
-            <NavLink className=" text-[14px] md:text-[18px] text-black text border-b-[3px] border-transparent hover:border-b-[3px] hover:border-black duration-150 delay-100 " to="/skills">
+            <NavLink className=" text-[14px] md:text-[18px] text-black text border-b-[3px] border-transparent duration-150 delay-100 " to="/skills">
             <span className="hidden md:inline">Skills</span>
             <SiKnowledgebase size={27} color="#000" className="inline md:hidden" />
             </NavLink>
           </li>
           <li>
-            <NavLink className=" text-[14px] md:text-[18px] text-black text border-b-[3px] border-transparent hover:border-b-[3px] hover:border-black duration-150 delay-100 " to="/project">
+            <NavLink className=" text-[14px] md:text-[18px] text-black text border-b-[3px] border-transparent duration-150 delay-100 " to="/project">
             <span className="hidden md:inline">
             Project
             </span>
