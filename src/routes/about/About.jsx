@@ -69,7 +69,7 @@ const About = () => {
                 </Link>
 
                 <Link
-                  to="https://drive.google.com/file/d/1bzakeWFwmO37eUlHqv-zS2ButYXqkPha/view"
+                  to="https://drive.google.com/file/d/1Ubcf6KK0HtKkbXe-8JOxiFGU7079PP9a/view?usp=sharing"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-[10px] border-b-2 border-emerald-600 flex items-center gap-5 md:text-[14px] font-semibold text-black"
