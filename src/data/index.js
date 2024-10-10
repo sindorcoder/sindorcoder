@@ -1,29 +1,34 @@
 import translate from "../assets/images/vercel.com_sindordevs-projects_translate.png";
-import tasbeh from "../assets/images/tasbeh.png"
-import books from "../assets/images/books.png"
-import apple from "../assets/images/apple.png"
-import nft from "../assets/images/nft.png"
-import hoteiler from "../assets/images/hoteiler.png"
-import walk from "../assets/images/walk.png"
-import expence from "../assets/images/expence.png"
-import car from "../assets/images/car.png"
-import ecomerce from "../assets/images/ecomerce.png"
+import tasbeh from "../assets/images/tasbeh.png";
+import books from "../assets/images/books.png";
+import apple from "../assets/images/apple.png";
+import nft from "../assets/images/nft.png";
+import hoteiler from "../assets/images/hoteiler.png";
+import dinorama from "../assets/images/dinorama.png";
+import expence from "../assets/images/expence.png";
+import car from "../assets/images/car.png";
+import ecomerce from "../assets/images/ecomerce.png";
+import mesuem from "../assets/images/mesuem.png";
+import candleaf from "../assets/images/candleaf.png";
+import barbers from "../assets/images/barbers.png"
+import makeUps from "../assets/images/makeUps.png"
 
-import html from "../assets/icons/html5.svg"
-import css3 from "../assets/icons/css.svg"
-import js from "../assets/icons/javascript.svg"
-import react from "../assets/icons/react.svg"
-import sass from "../assets/icons/sass.svg"
-import tailwind from "../assets/icons/tailwind.svg"
-import bootstrap from "../assets/icons/bootstrap.svg"
-import git from "../assets/icons/git.svg"
-import redux from "../assets/icons/redux.svg"
-import antd from "../assets/icons/ant.svg"
-import next from "../assets/icons/next.svg"
-import typScript from "../assets/icons/typescript.svg"
-import node from "../assets/icons/node.svg"
-import vuejs from "../assets/icons/vue-svgrepo-com.svg"
-import MUI from "../assets/icons/material-ui-svgrepo-com.svg"
+import html from "../assets/icons/html5.svg";
+import css3 from "../assets/icons/css.svg";
+import js from "../assets/icons/javascript.svg";
+import react from "../assets/icons/react.svg";
+import sass from "../assets/icons/sass.svg";
+import tailwind from "../assets/icons/tailwind.svg";
+import bootstrap from "../assets/icons/bootstrap.svg";
+import git from "../assets/icons/git.svg";
+import redux from "../assets/icons/redux.svg";
+import antd from "../assets/icons/ant.svg";
+import next from "../assets/icons/next.svg";
+import typScript from "../assets/icons/typescript.svg";
+import node from "../assets/icons/node.svg";
+// import vuejs from "../assets/icons/vue-svgrepo-com.svg";
+import MUI from "../assets/icons/material-ui-svgrepo-com.svg";
+
 const projectData = [
   {
     title: "Weather App",
@@ -44,7 +49,7 @@ const projectData = [
     title: "Translate",
     text: "Aplicação da NLW#04 da Rocketseat. Desenvolvida com React. Plataforma de Pomodoro com exercícios.",
     link: "https://translate-six-pi.vercel.app/",
-    type: ["React Js"],
+    type: ["React Js", "Tailwind"],
     image: translate,
   },
   {
@@ -66,69 +71,98 @@ const projectData = [
     text: "Aplicação da NLW#04 da Rocketseat. Desenvolvida com React. Plataforma de Pomodoro com exercícios.",
     link: "https://ts-home-2.vercel.app/",
     type: ["HTML", "Tailwind", "TypeScript"],
-    image: apple
+    image: apple,
   },
   {
     title: "Hotelier",
     text: "Aplicação da NLW#04 da Rocketseat. Desenvolvida com React. Plataforma de Pomodoro com exercícios.",
     link: "https://sidebar-indol-pi.vercel.app/",
     type: ["HTML", "Tailwind", "Javascript"],
-    image: hoteiler
+    image: hoteiler,
   },
   {
     title: "NFT",
     text: "Aplicação da NLW#04 da Rocketseat. Desenvolvida com React. Plataforma de Pomodoro com exercícios.",
     link: "https://nft-liard-beta.vercel.app/",
     type: ["HTML", "CSS", "Javascript"],
-    image: nft
+    image: nft,
   },
   {
-    title: "Walk",
+    title: "Dinorama Shop",
     text: "Aplicação da NLW#04 da Rocketseat. Desenvolvida com React. Plataforma de Pomodoro com exercícios.",
-    link: "https://lesson-four.vercel.app/",
-    type: ["HTML", "Tailwind", "TypeScript"],
-    image: walk
+    link: "https://dinorama.vercel.app/",
+    type: ["ReactJS", "Tailwind", "shadCN"],
+    image: dinorama,
   },
-   {
+  {
     title: "Expence and Income",
     text: "Aplicação da NLW#04 da Rocketseat. Desenvolvida com React. Plataforma de Pomodoro com exercícios.",
     link: "https://expence-my.vercel.app/",
     type: ["HTML", "Tailwind", "TypeScript"],
-    image: expence
-   },
-   {
+    image: expence,
+  },
+  {
     title: "Car Rental",
     text: "Aplicação da NLW#04 da Rocketseat. Desenvolvida com React. Plataforma de Pomodoro com exercícios.",
     link: "https://rent-car-beta-peach.vercel.app/",
     type: ["React", "Tailwind", "ANT DESIGN"],
-    image: car
-   },
-    {
-      title: "E-COMMERCE",
-      text: "Aplicação da NLW#04 da Rocketseat. Desenvolvida com React. Plataforma de Pomodoro com exercícios.",
-      link: "https://imtixon-5-teal.vercel.app/",
-      type: ["HTML", "CSS", "Javascript"],
-      image: ecomerce
-    }
+    image: car,
+  },
+  {
+    title: "E-COMMERCE",
+    text: "Aplicação da NLW#04 da Rocketseat. Desenvolvida com React. Plataforma de Pomodoro com exercícios.",
+    link: "https://imtixon-5-teal.vercel.app/",
+    type: ["HTML", "CSS", "Javascript"],
+    image: ecomerce,
+  },
+  {
+    title: "Mini Mesuem",
+    text: "Aplicação da NLW#04 da Rocketseat. Desenvolvida com React. Plataforma de Pomodoro com exercícios.",
+    link: "https://mesuem.vercel.app/",
+    type: ["Tailwind", "ReactJS"],
+    image: mesuem,
+  },
+  {
+    title: "Candleaf",
+    text: "Aplicação da NLW#04 da Rocketseat. Desenvolvida com React. Plataforma de Pomodoro com exercícios.",
+    link: "https://vercel.com/sindordevs-projects/mesuem",
+    type: ["TypeScript", "ReactJS", "Tailwind"],
+    image: candleaf,
+  },
+  {
+
+    title: "Barbers",
+    text: "Aplicação da NLW#04 da Rocketseat. Desenvolvida com React. Plataforma de Pomodoro com exercícios.",
+    link: "https://barbers-iota.vercel.app/",
+    type: ["TypeScript", "ReactJS", "Tailwind"],
+    image: barbers
+  },
+  {
+
+    title: "Make up",
+    text: "Aplicação da NLW#04 da Rocketseat. Desenvolvida com React. Plataforma de Pomodoro com exercícios.",
+    link: "https://beatyforgirls.vercel.app/",
+    type: ["TypeScript", "ReactJS", "Tailwind"],
+    image: makeUps
+  }
 ];
 
 export const techs = [
-  
-  { src: css3, alt: 'CSS3' },
-  { src: html, alt: 'HTML5' },
-  { src: tailwind, alt: 'Tailwind CSS' },
-  { src: bootstrap, alt: 'Bootstrap' },
-  { src: js, alt: 'JavaScript' },
-  { src: react, alt: 'React' },
-  { src: sass, alt: 'Sass' },
-  { src: git, alt: 'Git' },
-  { src: redux, alt: 'Redux' },
-  { src: typScript, alt: 'TypeScript' },
-  { src: antd, alt: 'ANT DESIGN' },
-  { src: next, alt: 'NEXT JS' },
-  { src: node, alt: 'NODE JS' },
-  { src: vuejs, alt: "VUE JS" },
-  { src: MUI, alt: "MATERIAL UI" }
+  { src: css3, alt: "CSS3" },
+  { src: html, alt: "HTML5" },
+  { src: tailwind, alt: "Tailwind CSS" },
+  { src: bootstrap, alt: "Bootstrap" },
+  { src: js, alt: "JavaScript" },
+  { src: react, alt: "React" },
+  { src: sass, alt: "Sass" },
+  { src: git, alt: "Git" },
+  { src: redux, alt: "Redux" },
+  { src: typScript, alt: "TypeScript" },
+  { src: antd, alt: "ANT DESIGN" },
+  { src: next, alt: "NEXT JS" },
+  { src: node, alt: "NODE JS" },
+  // { src: vuejs, alt: "VUE JS" },
+  { src: MUI, alt: "MATERIAL UI" },
 ];
 
 export default projectData;
