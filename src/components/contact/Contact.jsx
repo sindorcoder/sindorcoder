@@ -41,7 +41,7 @@ const Contact = () => {
           <Link
             data-aos="zoom-in"
             className="capitalize flex flex-col items-center gap-3 rounded-full text-[#000]"
-            to="https://github.com/SindorDev"
+            to="https://github.com/sindorcoder"
           >
             <img width={50} src={github} alt="github" />
             <h2 className="text-[20px] font-bold text">github</h2>
