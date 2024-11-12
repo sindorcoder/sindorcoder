@@ -56,7 +56,7 @@ const About = () => {
                   INSTAGRAM
                 </Link>
                 <Link
-                  to={"https://github.com/SindorDev"}
+                  to={"https://github.com/sindordcoder"}
                   className=" text-[10px] border-b-2 border-emerald-600 md:text-[14px] font-semibold text-black"
                 >
                   GITHUB
