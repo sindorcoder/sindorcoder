@@ -1,6 +1,7 @@
 import { techs } from "../../data";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Contact from "../../components/contact/Contact"
 import Footer from "../../components/footer/Footer";
 import { Skills as Data} from "../../components/skills/Skills";
 const Skills = () => {
@@ -21,6 +22,7 @@ const Skills = () => {
           ))}
         </div>
       </section>
+      <Contact/>
       <Footer />
     </>
   );

@@ -1,5 +1,4 @@
 import translate from "../assets/images/vercel.com_sindordevs-projects_translate.png";
-import tasbeh from "../assets/images/tasbeh.png";
 import books from "../assets/images/books.png";
 import apple from "../assets/images/apple.png";
 import nft from "../assets/images/nft.png";
@@ -58,13 +57,6 @@ const projectData = [
     link: "https://translate-six-pi.vercel.app/",
     type: ["React Js", "Tailwind"],
     image: translate,
-  },
-  {
-    title: "Tasbeh",
-    text: "Aplicação da NLW#04 da Rocketseat. Desenvolvida com React. Plataforma de Pomodoro com exercícios.",
-    link: "https://tasbeh-mocha.vercel.app/",
-    type: ["HTML", "CSS", "Javascript"],
-    image: tasbeh,
   },
   {
     title: "Books Creating",

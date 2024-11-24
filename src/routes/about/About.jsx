@@ -10,6 +10,7 @@ import ExperienceBox from "../../components/exprienceBox/ExprienceBox";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Footer from "../../components/footer/Footer";
+import Contact from "../../components/contact/Contact"
 const About = () => {
 
   AOS.init({
@@ -121,7 +122,7 @@ const About = () => {
             </div>
           </div>
 
-          <div data-aos="flip-up" data-aos-offset="300" data-aos-easing="ease-in-sine" className="flex items-center w-full gap-4 py-[15px] px-[20px] border-2 rounded-[10px]">
+          <div data-aos="flip-up" data-aos-easing="ease-in-sine" className="flex items-center w-full gap-4 py-[15px] px-[20px] border-2 rounded-[10px]">
             <img src={coding} width={40} height={40} alt="react" />
             <div className="w-full max-w-[2px] min-h-[50px] bg-[#D9D9D9]"></div>
             <div>
@@ -169,6 +170,7 @@ const About = () => {
           />
         </div>
       </section>
+      <Contact/>
       <Footer/>
     </>
   );

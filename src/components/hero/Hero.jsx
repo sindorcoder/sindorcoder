@@ -16,10 +16,10 @@ const Hero = () => {
           data-aos-easing="ease-in-sine"
           className="w-full md:mt-[70px] max-w-[650px]"
         >
-          <h1 className="title text-[40px] md:text-[85px] text-black text-center md:text-start">
+          <h1 className="title text-[40px] md:text-[60px] tracking-[4px] text-black text-center md:text-start">
             Hi, I'm Sindor
           </h1>
-          <p className="text-[14px] md:text-[18px] text font-bold text-black text-center md:text-start mt-[10px] md:mt-[30px]">
+          <p className="text-[14px] tracking-[3px] md:text-[18px] text font-bold text-black text-center md:text-start mt-[10px] md:mt-[30px]">
             As a passionate frontend developer from Uzbekistan, I approach every
             project with enthusiasm, striving to infuse my work with creativity
             and dedication. I find joy in continuously expanding my knowledge
@@ -29,7 +29,7 @@ const Hero = () => {
           </p>
         </div>
         <div
-          className="flex justify-center md:block "
+          className="flex justify-center md:block"
           data-aos="fade-left"
           data-aos-offset="0"
           data-aos-delay="50"
