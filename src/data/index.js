@@ -26,8 +26,15 @@ import antd from "../assets/icons/ant.svg";
 import next from "../assets/icons/next.svg";
 import typScript from "../assets/icons/typescript.svg";
 import node from "../assets/icons/node.svg";
-// import vuejs from "../assets/icons/vue-svgrepo-com.svg";
 import MUI from "../assets/icons/material-ui-svgrepo-com.svg";
+
+import gmail from "../assets/icons/google-gmail-svgrepo-com.svg"
+import hh from "../assets/icons/letter-h.svg";
+import linkedin from "../assets/icons/linkedin.svg";
+import github from "../assets/icons/github.svg";
+import instagram from "../assets/icons/instagram.svg";
+import telegram from "../assets/icons/telegram-brands-solid.svg";
+
 
 const projectData = [
   {
@@ -105,7 +112,7 @@ const projectData = [
     title: "Car Rental",
     text: "Aplicação da NLW#04 da Rocketseat. Desenvolvida com React. Plataforma de Pomodoro com exercícios.",
     link: "https://rent-car-beta-peach.vercel.app/",
-    type: ["React", "Tailwind", "ANT DESIGN"],
+    type: ["React", "Tailwind", "Ant Design"],
     image: car,
   },
   {
@@ -125,7 +132,7 @@ const projectData = [
   {
     title: "Candleaf",
     text: "Aplicação da NLW#04 da Rocketseat. Desenvolvida com React. Plataforma de Pomodoro com exercícios.",
-    link: "https://vercel.com/sindordevs-projects/mesuem",
+    link: "https://candleaf-tan.vercel.app/",
     type: ["TypeScript", "ReactJS", "Tailwind"],
     image: candleaf,
   },
@@ -148,21 +155,31 @@ const projectData = [
 ];
 
 export const techs = [
-  { src: css3, alt: "CSS3" },
   { src: html, alt: "HTML5" },
-  { src: tailwind, alt: "Tailwind CSS" },
-  { src: bootstrap, alt: "Bootstrap" },
+  { src: css3, alt: "CSS3" },
   { src: js, alt: "JavaScript" },
+  { src: typScript, alt: "TypeScript" },
+  { src: bootstrap, alt: "Bootstrap" },
+  { src: tailwind, alt: "Tailwind CSS" },
   { src: react, alt: "React" },
   { src: sass, alt: "Sass" },
   { src: git, alt: "Git" },
   { src: redux, alt: "Redux" },
-  { src: typScript, alt: "TypeScript" },
   { src: antd, alt: "ANT DESIGN" },
   { src: next, alt: "NEXT JS" },
   { src: node, alt: "NODE JS" },
-  // { src: vuejs, alt: "VUE JS" },
   { src: MUI, alt: "MATERIAL UI" },
 ];
+
+
+export const contactData = [
+  { src: hh, alt: "hh", link: "https://tashkent.hh.uz/applicant/settings?from=header_new&hhtmFromLabel=header_new&hhtmFrom=main" },
+  { src: linkedin, alt: "linkedin", link: "https://www.linkedin.com/in/sindor-olmasov-8848222b7/" },
+  { src: github, alt: "github", link: "https://github.com/sindorcoder" },
+  { src: instagram, alt: "instagram", link: "https://www.instagram.com/sindor_.7/"},
+  { src: telegram, alt: "telegram", link: "https://t.me/sindor_712" },
+  { src: gmail, alt: "GMAIL", link: "mailto:sindor77@gmail.com" },
+
+]
 
 export default projectData;
