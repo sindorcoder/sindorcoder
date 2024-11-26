@@ -18,7 +18,7 @@ const Skills = () => {
         </p>
         <div className="grid mb-[150px] mt-[100px] grid-cols-2 place-items-center md:grid-cols-3 lg:grid-cols-5 gap-10">
           {techs.map((tech, index) => (
-           <Data tech={tech} index={index}/>
+           <Data key={index} tech={tech} index={index}/>
           ))}
         </div>
       </section>
