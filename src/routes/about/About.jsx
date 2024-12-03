@@ -9,6 +9,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import Footer from "../../components/footer/Footer";
 import Contact from "../../components/contact/Contact";
+import cv from "../../assets/resume/Sindor O'lmasov.pdf"
 const About = () => {
   AOS.init({});
 
@@ -73,12 +74,12 @@ const About = () => {
                 </Link>
 
                 <Link
-                  to="https://drive.google.com/file/d/1ge--ercB5Xk62XaSXQQ28qdf_a4aX_cA/view"
+                  to={cv}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-[10px] border-b-2 border-emerald-600 flex items-center gap-5 md:text-[14px] font-semibold text-black"
                 >
-                  RESUME CV
+                  RESUME
                 </Link>
               </div>
             </div>

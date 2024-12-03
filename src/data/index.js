@@ -153,7 +153,7 @@ export const techs = [
   { src: typScript, alt: "TypeScript" },
   { src: bootstrap, alt: "Bootstrap" },
   { src: tailwind, alt: "Tailwind CSS" },
-  { src: react, alt: "React" },
+  { src: react, alt: "React" }, 
   { src: sass, alt: "Sass" },
   { src: git, alt: "Git" },
   { src: redux, alt: "Redux" },
