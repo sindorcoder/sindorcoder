@@ -50,7 +50,7 @@ const AmazingP = ({ end }) => {
                     #Live View
                   </Link>
                   <Link
-                    to={item.link}
+                    to={item.source}
                     target="_blank"
                     className="mt-4 flex items-center gap-2 text-[12px] sm:text-[16px]  underline text-nowrap"
                   >

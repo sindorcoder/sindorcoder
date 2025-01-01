@@ -59,7 +59,7 @@ const Home = () => {
             <li>
               <button
                 className="text-[14px] text md:text-[20px] text-black"
-                onClick={() => scrollToSection("project")}
+                onClick={() => scrollToSection("contact")}
               >
                 <span className="hidden md:inline">#Contact</span>
               </button>
