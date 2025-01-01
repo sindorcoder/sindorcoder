@@ -1,27 +1,19 @@
+/* eslint-disable react/no-unescaped-entities */
 import interfaceWeb from "../../assets/icons/design.svg";
 import coding from "../../assets/icons/conntection.svg";
 import react from "../../assets/icons/builder.svg";
 import word from "../../assets/icons/ui.svg";
 import { Link } from "react-router-dom";
 import avatar from "../../assets/icons/AvatarAndIcons.svg";
-import ExperienceBox from "../../components/exprienceBox/ExprienceBox";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import Footer from "../../components/footer/Footer";
-import Contact from "../../components/contact/Contact";
-import cv from "../../assets/resume/Sindor O'lmasov.pdf"
+import cv from "../../assets/resume/Sindor O'lmasov.pdf";
 const About = () => {
   AOS.init({});
 
   return (
     <>
-      <section className="my-[150px]">
-        <div className="bg-slate-50 p-2 flex items-center shadow-cm justify-center w-full max-w-[80px] md:max-w-[150px] rounded-full">
-          <h2 className="text-[14px] md:text-[20px] capitalize title text-black">
-            About
-          </h2>
-        </div>
-
+      <section className="my-[150px]" id="about">
         <div className="flex items-center w-full max-w-[1000px] mx-auto">
           <div className="grid grid-cols-1 place-content-center text-center md:grid-cols-1 md:place-items-center   lg:place-content-start md:text-center lg:text-start lg:grid-cols-2 items-center gap-[70px]">
             <div
@@ -158,42 +150,7 @@ const About = () => {
             </div>
           </div>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-20">
-          <ExperienceBox
-            title="I have years of experience with"
-            coding="Coding HTML5"
-            css3="Coding CSS3"
-            javascript="Coding JavaScript"
-            using="Using Elementor"
-            adobe="Using Adobe Package"
-            creating="Creating Brand and Logo"
-            userInterface="Creating User Interface"
-          />
-          <ExperienceBox
-            title="I have years of experience with"
-            coding="Coding HTML5"
-            css3="Coding CSS3"
-            javascript="Coding JavaScript"
-            using="Using Elementor"
-            adobe="Using Adobe Package"
-            creating="Creating Brand and Logo"
-            userInterface="Creating User Interface"
-          />
-
-          <ExperienceBox
-            title="I work and study about"
-            coding="Coding React.js"
-            css3="Coding CSS3"
-            javascript="Coding JavaScript"
-            using="Coding TypeScript"
-            adobe="Studying Node.js basics"
-            creating="Studying API RESTful"
-            userInterface=" Studying User Experience"
-          />
-        </div>
       </section>
-      <Contact />
-      <Footer />
     </>
   );
 };

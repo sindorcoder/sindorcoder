@@ -3,29 +3,29 @@
 @tailwind utilities;
 
 @font-face {
-     font-family: "Poppins";
-     src: url("./assets/font/Poppins.woff2");
+  font-family: "Poppins";
+  src: url("./assets/font/Poppins.woff2");
 }
 
 @font-face {
-     font-family: "Lato";
-     src: url("./assets/font/Lato.woff2");
+  font-family: "Lato";
+  src: url("./assets/font/Lato.woff2");
 }
 * {
-     scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 body {
-     background-color: #e9ecef;
-     padding-block: 14px;
+  background-color: #e9ecef;
+  padding-block: 14px;
 }
 
 .title {
-     font-family: "Poppins";
+  font-family: "Poppins";
 }
 .text {
-     font-family: "Lato";
+  font-family: "Lato";
 }
 
 .shadow-cm {
-     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
