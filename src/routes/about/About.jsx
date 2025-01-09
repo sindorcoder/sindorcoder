@@ -1,3 +1,4 @@
+import { HiOutlineEye } from "react-icons/hi";
 /* eslint-disable react/no-unescaped-entities */
 import interfaceWeb from "../../assets/icons/design.svg";
 import coding from "../../assets/icons/conntection.svg";
@@ -47,31 +48,15 @@ const About = () => {
               </p>
               <div className="flex justify-center md:justify-center lg:justify-start items-center gap-5 mt-[20px]">
                 <Link
-                  to={"https://www.instagram.com/sindor_.7/"}
-                  className=" text-[10px] border-b-2 border-emerald-600 md:text-[14px] font-semibold text-black"
-                >
-                  INSTAGRAM
-                </Link>
-                <Link
-                  to={"https://github.com/sindorcoder"}
-                  className=" text-[10px] border-b-2 border-emerald-600 md:text-[14px] font-semibold text-black"
-                >
-                  GITHUB
-                </Link>
-                <Link
-                  to={"mailto:sindordev77@gmail.com"}
-                  className=" text-[10px] border-b-2 border-emerald-600 md:text-[14px] font-semibold text-black"
-                >
-                  EMAIL
-                </Link>
-
-                <Link
                   to={cv}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-[10px] border-b-2 border-emerald-600 flex items-center gap-5 md:text-[14px] font-semibold text-black"
+                  className="px-8 text-black py-1 flex items-center gap-2 bg-[#adb5bd] rounded-lg"
                 >
                   RESUME
+                  <button>
+                    <HiOutlineEye size={20} />
+                  </button>
                 </Link>
               </div>
             </div>
