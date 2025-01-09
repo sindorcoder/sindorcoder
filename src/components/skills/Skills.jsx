@@ -11,7 +11,7 @@ export const Skills = ({ tech, index }) => {
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >
-      <img src={tech.src} alt={tech.alt} className="rounded-lg" width={60} />
+      <img src={tech.src} loading="lazy" alt={tech.alt} className="rounded-lg" width={60} />
 
       <div
         className={`

@@ -1,4 +1,4 @@
-import { BiGitMerge } from "react-icons/bi"; 
+import { BiGitMerge } from "react-icons/bi";
 import { Link } from "react-router-dom";
 import projectData from "../../data/index";
 import AOS from "aos";
@@ -37,6 +37,7 @@ const AmazingP = ({ end }) => {
                   })}
                 </div>
                 <img
+                  loading="lazy"
                   className="rounded-xl min-h-[250px] shadow-cm object-contain"
                   src={item.image}
                   alt={item.title}

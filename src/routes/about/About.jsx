@@ -27,6 +27,7 @@ const About = () => {
                 src={avatar}
                 className="w-[250px] h-[250px] md:w-[400px] md:h-[400px]"
                 alt="avatar"
+                loading="lazy"
               />
             </div>
             <div

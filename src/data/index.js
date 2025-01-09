@@ -2,14 +2,11 @@ import translate from "../assets/images/translate.png";
 
 import apple from "../assets/images/apple.png";
 import nft from "../assets/images/nft.png";
-import hoteiler from "../assets/images/hoteiler.png";
 import dinorama from "../assets/images/dinorama.png";
 import expence from "../assets/images/exchange.png";
-import car from "../assets/images/car.png";
 import ecomerce from "../assets/images/ecomerce.png";
 import mesuem from "../assets/images/mesuem.png";
 import candleaf from "../assets/images/candleaf.png";
-import barbers from "../assets/images/barbers.png";
 import makeUps from "../assets/images/makeUps.png";
 import game from "../assets/images/game.png";
 import weather from "../assets/images/weather.png";
@@ -47,14 +44,7 @@ const projectData = [
     image: weather,
     source: "https://github.com/sindorcoder/weather",
   },
-  {
-    title: "E-COMMERCE",
-    text: "Aplicação da NLW#04 da Rocketseat. Desenvolvida com React",
-    link: "https://redux-login-five.vercel.app/",
-    type: ["React Js", "ANT Design"],
-    image: "https://themefisher.com/blog/flipmart.webp",
-    source: "https://github.com/sindorcoder/E-Commerce",
-  },
+
   {
     title: "Translate",
     text: "Aplicação da NLW#04 da Rocketseat. Desenvolvida com React",
@@ -70,14 +60,6 @@ const projectData = [
     type: ["HTML", "Tailwind", "TypeScript"],
     image: apple,
     source: "https://github.com/sindorcoder/Apple-Clone-Version",
-  },
-  {
-    title: "Hotelier",
-    text: "Aplicação da NLW#04 da Rocketseat. Desenvolvida com React",
-    link: "https://sidebar-indol-pi.vercel.app/",
-    type: ["HTML", "Tailwind", "Javascript"],
-    image: hoteiler,
-    source: "https://github.com/sindorcoder/sidebar",
   },
   {
     title: "NFT",
@@ -103,14 +85,7 @@ const projectData = [
     image: expence,
     source: "https://github.com/sindorcoder/Exchange",
   },
-  {
-    title: "Car Rental",
-    text: "Aplicação da NLW#04 da Rocketseat. Desenvolvida com React",
-    link: "https://rent-car-beta-peach.vercel.app/",
-    type: ["React", "Tailwind", "Ant Design"],
-    image: car,
-    source: "https://github.com/sindorcoder/rent-car",
-  },
+
   {
     title: "E-COMMERCE",
     text: "Aplicação da NLW#04 da Rocketseat. Desenvolvida com React",
@@ -134,14 +109,6 @@ const projectData = [
     type: ["TypeScript", "ReactJS", "Tailwind"],
     image: candleaf,
     source: "https://github.com/sindorcoder/Candleaf",
-  },
-  {
-    title: "Barbers",
-    text: "Aplicação da NLW#04 da Rocketseat. Desenvolvida com React",
-    link: "https://barbers-iota.vercel.app/",
-    type: ["TypeScript", "ReactJS", "Tailwind"],
-    image: barbers,
-    source: "https://github.com/sindorcoder/Barbers",
   },
   {
     title: "Make up",

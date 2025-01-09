@@ -23,10 +23,11 @@ const Home = () => {
   return (
     <>
       <nav className="fixed top-0 left-0 right-0 z-[1] backdrop-blur-lg bg-white/30 px-1">
+
         <div className="flex w-full max-w-[1540px] px-5 mx-auto items-center justify-between">
           <div>
             <Link to="#">
-              <img src={logo} width={80} className="w-[80px]" alt="logo" />
+              <img src={logo} width={60} className="w-[60px]" loading="lazy" alt="logo" />
             </Link>
           </div>
 

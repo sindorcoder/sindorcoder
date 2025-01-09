@@ -16,7 +16,7 @@ const Contact = () => {
                 className="capitalize flex flex-col backdrop-blur-lg bg-white/30  bg-slate-50 p-4 rounded-lg items-center gap-3"
                 to={item.link}
               >
-                <img width={50} src={item.src} alt={item.alt} />
+                <img loading="lazy" width={50} src={item.src} alt={item.alt} />
                 <h2 className="text-[20px] font-bold text">{item.alt}</h2>
               </Link>
             );
