@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 import avatar from "../../assets/icons/AvatarAndIcons.svg";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import cv from "../../assets/resume/Sindor O'lmasov.pdf";
+import cv from "../../assets/Sindor O'lmasov.pdf";
 const About = () => {
   AOS.init({});
 
@@ -49,7 +49,7 @@ const About = () => {
               </p>
               <div className="flex justify-center md:justify-center lg:justify-start items-center gap-5 mt-[20px]">
                 <Link
-                  to={"https://docs.google.com/document/d/11lVDcegShCC3FlrRQW9QEz-TxQluLiB-ZmisxAOCTZA/edit?tab=t.0"}
+                  to={cv}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="px-8 text-black py-1 flex items-center gap-2 bg-[#adb5bd] rounded-lg"
