@@ -17,12 +17,7 @@ const About = () => {
       <section className="my-[150px]" id="about">
         <div className="flex items-center w-full max-w-[1000px] mx-auto">
           <div className="grid grid-cols-1 place-content-center text-center md:grid-cols-1 md:place-items-center   lg:place-content-start md:text-center lg:text-start lg:grid-cols-2 items-center gap-[70px]">
-            <div
-              data-aos="zoom-in-up"
-              data-aos-offset="300"
-              data-aos-easing="ease-in-sine"
-              className="mt-[52px] flex justify-center md:block"
-            >
+            <div className="mt-[52px] flex justify-center md:block">
               <img
                 src={avatar}
                 className="w-[250px] h-[250px] md:w-[400px] md:h-[400px]"
@@ -30,12 +25,7 @@ const About = () => {
                 loading="lazy"
               />
             </div>
-            <div
-              data-aos="zoom-in-up"
-              data-aos-offset="300"
-              data-aos-easing="ease-in-sine"
-              className="w-full"
-            >
+            <div className="w-full">
               <h2 className="title text-[24px] md:text-[30px] text-slate-700">
                 Hi, I'm Sindor
               </h2>

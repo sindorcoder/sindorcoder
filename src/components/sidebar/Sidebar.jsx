@@ -5,12 +5,6 @@ import { BsTelegram } from "react-icons/bs";
 import { Link } from "react-router-dom";
 
 const Sidebar = ({ isOpen, setIsOpen }) => {
-  const scrollToSection = (id) => {
-    const section = document.getElementById(id);
-    section?.scrollIntoView({ behavior: "smooth" });
-    setIsOpen(false);
-  };
-
   return (
     <div
       style={{ transform: isOpen ? "translateX(0)" : "translateX(100%)" }}
@@ -28,37 +22,41 @@ const Sidebar = ({ isOpen, setIsOpen }) => {
             <div>
               <ul className="flex flex-col my-[100px] w-full gap-2 md:gap-4">
                 <li>
-                  <button
-                    onClick={() => scrollToSection("about")}
-                    className="text-[14px] md:text-[22px] text-black border-b-[3px] border-transparent duration-150 delay-100"
-                  >
-                    <span>#About</span>
-                  </button>
-                </li>
-                <li>
-                  <button
-                    onClick={() => scrollToSection("skills")}
-                    className="text-[14px] md:text-[22px] text-black border-b-[3px] border-transparent duration-150 delay-100"
-                  >
-                    <span>#Skills</span>
-                  </button>
-                </li>
-                <li>
-                  <button
-                    onClick={() => scrollToSection("project")}
+                  <a
+                    href="#about"
                     className="text-[14px] md:text-[22px] text-black"
+                    onClick={() => setIsOpen(false)}
                   >
-                    <span>#Work</span>
-                  </button>
+                    About
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#skills"
+                    className="text-[14px] md:text-[22px] text-black"
+                    onClick={() => setIsOpen(false)}
+                  >
+                    Skills
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#projects"
+                    className="text-[14px] md:text-[22px] text-black"
+                    onClick={() => setIsOpen(false)}
+                  >
+                    Projects
+                  </a>
                 </li>
 
                 <li>
-                  <button
-                    onClick={() => scrollToSection("contact")}
+                  <a
+                    href="#contact"
                     className="text-[14px] md:text-[22px] text-black"
+                    onClick={() => setIsOpen(false)}
                   >
-                    <span>#Contact</span>
-                  </button>
+                    Contact
+                  </a>
                 </li>
               </ul>
             </div>

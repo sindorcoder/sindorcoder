@@ -15,55 +15,55 @@ import { useState } from "react";
 const Home = () => {
   const [isOpen, setIsOpen] = useState(false);
 
-  const scrollToSection = (id) => {
-    const section = document.getElementById(id);
-    section?.scrollIntoView({ behavior: "smooth" });
-  };
-
   return (
     <>
       <nav className="fixed top-0 left-0 right-0 z-[1] backdrop-blur-lg bg-white/30 px-1">
-
         <div className="flex w-full max-w-[1540px] px-5 mx-auto items-center justify-between">
           <div>
             <Link to="#">
-              <img src={logo} width={60} className="w-[60px]" loading="lazy" alt="logo" />
+              <img
+                src={logo}
+                width={60}
+                className="w-[60px]"
+                loading="lazy"
+                alt="logo"
+              />
             </Link>
           </div>
 
           <ul className="hidden lg:flex items-center gap-5 md:gap-14">
             <li>
-              <button
-                className="text-[14px] text md:text-[20px] text-black border-b-[3px] border-transparent duration-150 delay-100"
-                onClick={() => scrollToSection("about")}
-              >
-                <span className="hidden md:inline">#About</span>
-              </button>
-            </li>
-            <li>
-              <button
-                className="text-[14px] text md:text-[20px] text-black border-b-[3px] border-transparent duration-150 delay-100"
-                onClick={() => scrollToSection("skills")}
-              >
-                <span className="hidden md:inline">#Skills</span>
-              </button>
-            </li>
-            <li>
-              <button
+              <a
+                href="#about"
                 className="text-[14px] text md:text-[20px] text-black"
-                onClick={() => scrollToSection("project")}
               >
-                <span className="hidden md:inline">#Work</span>
-              </button>
+                #About
+              </a>
+            </li>
+            <li>
+              <a
+                href="#skills"
+                className="text-[14px] text md:text-[20px] text-black"
+              >
+                #Skills
+              </a>
+            </li>
+            <li>
+              <a
+                href="#project"
+                className="text-[14px] text md:text-[20px] text-black"
+              >
+                #Project
+              </a>
             </li>
 
             <li>
-              <button
+              <a
+                href="#contact"
                 className="text-[14px] text md:text-[20px] text-black"
-                onClick={() => scrollToSection("contact")}
               >
-                <span className="hidden md:inline">#Contact</span>
-              </button>
+                #Contact
+              </a>
             </li>
           </ul>
 
