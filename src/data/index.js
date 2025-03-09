@@ -169,7 +169,7 @@ export const contactData = [
   {
     src: instagram,
     alt: "instagram",
-    link: "https://www.instagram.com/sindor_.7/",
+    link: "https://www.instagram.com/sindor.codes/",
   },
   { src: telegram, alt: "telegram", link: "https://t.me/sindor_712" },
   { src: gmail, alt: "GMAIL", link: "mailto:sindor77@gmail.com" },
