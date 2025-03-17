@@ -29,10 +29,8 @@ import MUI from "../assets/icons/material-ui-svgrepo-com.svg";
 import webpack from "../assets/icons/webpack-svgrepo-com.svg";
 
 import gmail from "../assets/icons/google-gmail-svgrepo-com.svg";
-import hh from "../assets/icons/letter-h.svg";
 import linkedin from "../assets/icons/linkedin.svg";
 import github from "../assets/icons/github.svg";
-import instagram from "../assets/icons/instagram.svg";
 import telegram from "../assets/icons/telegram-brands-solid.svg";
 
 const projectData = [
@@ -156,21 +154,11 @@ export const techs = [
 
 export const contactData = [
   {
-    src: hh,
-    alt: "hh",
-    link: "https://tashkent.hh.uz/applicant/settings?from=header_new&hhtmFromLabel=header_new&hhtmFrom=main",
-  },
-  {
     src: linkedin,
     alt: "linkedin",
     link: "https://www.linkedin.com/in/sindor-olmasov-8848222b7/",
   },
   { src: github, alt: "github", link: "https://github.com/sindorcoder" },
-  {
-    src: instagram,
-    alt: "instagram",
-    link: "https://www.instagram.com/sindor.codes/",
-  },
   { src: telegram, alt: "telegram", link: "https://t.me/sindor_712" },
   { src: gmail, alt: "GMAIL", link: "mailto:sindor77@gmail.com" },
 ];
