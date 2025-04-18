@@ -1,14 +1,9 @@
 import translate from "../assets/images/translate.png";
-
-import apple from "../assets/images/apple.png";
-import nft from "../assets/images/nft.png";
 import dinorama from "../assets/images/dinorama.png";
 import expence from "../assets/images/exchange.png";
 import ecomerce from "../assets/images/ecomerce.png";
-import mesuem from "../assets/images/mesuem.png";
 import candleaf from "../assets/images/candleaf.png";
 import makeUps from "../assets/images/makeUps.png";
-import game from "../assets/images/game.png";
 import weather from "../assets/images/weather.png";
 import info from "../assets/images/info.png";
 
@@ -52,22 +47,6 @@ const projectData = [
     source: "https://github.com/sindorcoder/Translate",
   },
   {
-    title: "Apple Clone",
-    text: "Aplicação da NLW#04 da Rocketseat. Desenvolvida com React",
-    link: "https://ts-home-2.vercel.app/",
-    type: ["HTML", "Tailwind", "TypeScript"],
-    image: apple,
-    source: "https://github.com/sindorcoder/Apple-Clone-Version",
-  },
-  {
-    title: "NFT",
-    text: "Aplicação da NLW#04 da Rocketseat. Desenvolvida com React",
-    link: "https://nft-liard-beta.vercel.app/",
-    type: ["HTML", "CSS", "Javascript"],
-    image: nft,
-    source: "https://github.com/sindorcoder/NFT",
-  },
-  {
     title: "Dinorama Shop",
     text: "Aplicação da NLW#04 da Rocketseat. Desenvolvida com React",
     link: "https://dinorama.vercel.app/",
@@ -92,14 +71,7 @@ const projectData = [
     image: ecomerce,
     source: "https://github.com/sindorcoder/E-COM",
   },
-  {
-    title: "Mini Mesuem",
-    text: "Aplicação da NLW#04 da Rocketseat. Desenvolvida com React",
-    link: "https://mesuem.vercel.app/",
-    type: ["Tailwind", "ReactJS"],
-    image: mesuem,
-    source: "https://github.com/sindorcoder/mesuem",
-  },
+  
   {
     title: "Candleaf",
     text: "Aplicação da NLW#04 da Rocketseat. Desenvolvida com React",
@@ -116,14 +88,7 @@ const projectData = [
     image: makeUps,
     source: "https://github.com/sindorcoder/makeUps",
   },
-  {
-    title: "Zeppelins",
-    text: "Aplicação da NLW#04 da Rocketseat. Desenvolvida com React",
-    link: "https://game-rose-sigma.vercel.app/",
-    type: ["ReactJS", "i18next"],
-    image: game,
-    source: "https://github.com/sindorcoder/game",
-  },
+  
   {
     title: "Info Countries",
     text: "Aplicação da NLW#04 da Rocketseat. Desenvolvida com React",
@@ -153,11 +118,7 @@ export const techs = [
 ];
 
 export const contactData = [
-  {
-    src: linkedin,
-    alt: "linkedin",
-    link: "https://www.linkedin.com/in/sindor-olmasov-8848222b7/",
-  },
+  { src: linkedin, alt: "linkedin", link: "https://www.linkedin.com/in/sindor-olmasov-8848222b7/" },
   { src: github, alt: "github", link: "https://github.com/sindorcoder" },
   { src: telegram, alt: "telegram", link: "https://t.me/sindor_712" },
   { src: gmail, alt: "GMAIL", link: "mailto:sindor77@gmail.com" },
