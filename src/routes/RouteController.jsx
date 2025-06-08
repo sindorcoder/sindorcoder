@@ -1,5 +1,7 @@
 import { Route, Routes, useLocation } from "react-router-dom";
 import Home from "./home/Home";
+import Project from "./project/Project";
+import Navbar from "../components/navbar/Navbar";
 import { useEffect } from "react";
 const RouteController = () => {
   const { pathname } = useLocation();
@@ -10,7 +12,10 @@ const RouteController = () => {
   return (
     <>
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route element={<Navbar />}>
+          <Route path="/" element={<Home />} />
+          <Route path="/projects" element={<Project />} />
+        </Route>
       </Routes>
     </>
   );

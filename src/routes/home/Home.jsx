@@ -1,120 +1,16 @@
-import About from "../../routes/about/About";
-import Project from "../../components/amazing/AmazingP";
-import Contact from "../../components/contact/Contact";
-import Footer from "../../components/footer/Footer";
+import About from "../../components/about/About";
+// import Contact from "../../components/contact/Contact";
 import Skills from "../skills/Skills";
-import Sidebar from "../../components/sidebar/Sidebar";
-
-import { BiMenuAltRight } from "react-icons/bi";
-import { BsTelegram } from "react-icons/bs";
-import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
-import { Link } from "react-router-dom";
-import logo from "../../assets/icons/logo.svg";
-import { useState } from "react";
-
+import Navbar from "../../components/navbar/Navbar";
+import Eductaion from "../../components/education/Eductaion";
 const Home = () => {
-  const [isOpen, setIsOpen] = useState(false);
-
   return (
     <>
-      <nav className="fixed top-0 left-0 right-0 z-[1] backdrop-blur-lg bg-white/30 px-1">
-        <div className="flex w-full max-w-[1540px] px-5 mx-auto items-center justify-between">
-          <div>
-            <Link to="#">
-              <img
-                src={logo}
-                width={60}
-                className="w-[60px]"
-                loading="lazy"
-                alt="logo"
-              />
-            </Link>
-          </div>
-
-          <ul className="hidden lg:flex items-center gap-5 md:gap-14">
-            <li>
-              <a
-                href="#about"
-                className="text-[14px] text md:text-[20px] text-black"
-              >
-                #About
-              </a>
-            </li>
-            <li>
-              <a
-                href="#skills"
-                className="text-[14px] text md:text-[20px] text-black"
-              >
-                #Skills
-              </a>
-            </li>
-            <li>
-              <a
-                href="#project"
-                className="text-[14px] text md:text-[20px] text-black"
-              >
-                #Project
-              </a>
-            </li>
-
-            <li>
-              <a
-                href="#contact"
-                className="text-[14px] text md:text-[20px] text-black"
-              >
-                #Contact
-              </a>
-            </li>
-          </ul>
-
-          <div className="items-center gap-5 hidden lg:flex">
-            <Link
-              to={"https://github.com/sindorcoder"}
-              className="hover:scale-125 duration-300"
-              target="_blank"
-            >
-              <AiFillGithub size={30} />
-            </Link>
-            <Link
-              to={"https://www.linkedin.com/in/sindor-olmasov-8848222b7/"}
-              className="hover:scale-125 duration-300 hover:text-blue-600"
-              target="_blank"
-            >
-              <AiFillLinkedin size={30} />
-            </Link>
-            <Link
-              to={"https://t.me/sindor_712"}
-              className="hover:scale-125 duration-300 hover:text-blue-600"
-              target="_blank"
-            >
-              <BsTelegram size={27} />
-            </Link>
-          </div>
-
-          <button
-            onClick={() => setIsOpen(!isOpen)}
-            className="lg:hidden hover:scale-125 duration-300"
-          >
-            <BiMenuAltRight size={30} color="black" />
-          </button>
-        </div>
-      </nav>
-
-      <Sidebar isOpen={isOpen} setIsOpen={setIsOpen} />
-
-      <section id="about">
-        <About />
-      </section>
-      <section id="skills">
-        <Skills />
-      </section>
-      <section id="project">
-        <Project />
-      </section>
-      <section id="contact">
-        <Contact />
-      </section>
-      <Footer />
+      <Navbar />
+      <About />
+      <Eductaion />
+      <Skills />
+      {/* <Contact /> */}
     </>
   );
 };
