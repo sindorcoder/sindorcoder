@@ -1,12 +1,12 @@
-import { Link } from "react-router-dom";
-import { contactData } from "../../data/index";
+// import { Link } from "react-router-dom";
+// import { contactData } from "../../data/index";
 
 const Contact = () => {
   return (
     <section className="mb-[150px] my-[80px]">
       <div>
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 items-center gap-5 justify-around my-[80px]">
-          {contactData.map((item, index) => {
+          {/* {contactData.map((item, index) => {
             return (
               <Link
                 key={index}
@@ -17,7 +17,7 @@ const Contact = () => {
                 <h2 className="text-[20px] font-bold text">{item.alt}</h2>
               </Link>
             );
-          })}
+          })} */}
         </div>
         <div></div>
       </div>

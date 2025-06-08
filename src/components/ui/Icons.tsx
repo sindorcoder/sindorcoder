@@ -6,6 +6,8 @@ import {
   MailIcon,
   PencilIcon,
   Code2,
+  PhoneIcon,
+  UserRound,
 } from "lucide-react";
 export type IconProps = React.HTMLAttributes<SVGElement>;
 
@@ -14,9 +16,11 @@ export const Icons = {
   home: () => <HomeIcon className="size-4" />,
   pencil: () => <PencilIcon className="size-4" />,
   code: () => <Code2 className="size-4" />,
-  calendar: () => <CalendarIcon />,
-  email: () => <MailIcon />,
+  email: () => <MailIcon className="size-4" />,
+  phone : () => <PhoneIcon className="size-4" />,
+  contact: () => <UserRound className="size-4" />,
   linkedin: () => (
+    
     <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
       <title>LinkedIn</title>
       <path
@@ -26,6 +30,7 @@ export const Icons = {
     </svg>
   ),
   x: () => (
+
     <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
       <title>X</title>
       <path
@@ -34,19 +39,8 @@ export const Icons = {
       />
     </svg>
   ),
-  youtube: () => (
-    <svg
-      width="32px"
-      height="32px"
-      viewBox="0 0 32 32"
-      fill="currentColor"
-      xmlns="http://www.w3.org/2000/svg"
-    >
-      <title>youtube</title>
-      <path d="M29.41,9.26a3.5,3.5,0,0,0-2.47-2.47C24.76,6.2,16,6.2,16,6.2s-8.76,0-10.94.59A3.5,3.5,0,0,0,2.59,9.26,36.13,36.13,0,0,0,2,16a36.13,36.13,0,0,0,.59,6.74,3.5,3.5,0,0,0,2.47,2.47C7.24,25.8,16,25.8,16,25.8s8.76,0,10.94-.59a3.5,3.5,0,0,0,2.47-2.47A36.13,36.13,0,0,0,30,16,36.13,36.13,0,0,0,29.41,9.26ZM13.2,20.2V11.8L20.47,16Z" />
-    </svg>
-  ),
   github: () => (
+    
     <svg width="16px" viewBox="0 0 438.549 438.549">
       <path
         fill="currentColor"
@@ -60,6 +54,7 @@ export const DATA = {
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
     { href: "/projects", icon: Code2, label: "Projects" },
+    { href: "contact", icon: UserRound, label: "Contact Me" }
   ],
   contact: {
     social: {
@@ -82,6 +77,11 @@ export const DATA = {
         name: "Send Email",
         url: "mailto:sindordev77@gmail.com",
         icon: Icons.email,
+      },
+      phone: {
+        name: "Call Phone",
+        url: "tel:+998906027875",
+        icon: Icons.phone,
       },
     },
   },

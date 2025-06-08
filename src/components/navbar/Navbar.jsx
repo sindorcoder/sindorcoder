@@ -1,4 +1,3 @@
-
 import { Link, Outlet } from "react-router-dom";
 import { buttonVariants } from "../ui/button";
 import { Separator } from "../ui/separator";
@@ -10,15 +9,13 @@ import {
 } from "../ui/tooltip";
 import { cn } from "../../lib/utils";
 import { Dock, DockIcon } from "../magicui/dock";
-import { DATA } from "../ui/Icons"
-
+import { DATA } from "../ui/Icons";
 
 const Navbar = () => {
   return (
     <nav>
-      <div className="flex flex-col items-center justify-center fixed bottom-3 left-0 w-full z-10">
-
-        <TooltipProvider className="w-full">
+      <div className="flex justify-center fixed bottom-3 left-0 w-full z-10">
+        <TooltipProvider className="w-full ">
           <Dock direction="middle" className="bg-gray-300">
             {DATA.navbar.map((item) => (
               <DockIcon key={item.label} className="bg-transparent">
@@ -66,7 +63,7 @@ const Navbar = () => {
           </Dock>
         </TooltipProvider>
       </div>
-      <Outlet/>
+      <Outlet />
     </nav>
   );
 };
