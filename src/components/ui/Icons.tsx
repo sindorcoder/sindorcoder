@@ -17,10 +17,9 @@ export const Icons = {
   pencil: () => <PencilIcon className="size-4" />,
   code: () => <Code2 className="size-4" />,
   email: () => <MailIcon className="size-4" />,
-  phone : () => <PhoneIcon className="size-4" />,
+  phone: () => <PhoneIcon className="size-4" />,
   contact: () => <UserRound className="size-4" />,
   linkedin: () => (
-    
     <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
       <title>LinkedIn</title>
       <path
@@ -30,7 +29,6 @@ export const Icons = {
     </svg>
   ),
   x: () => (
-
     <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
       <title>X</title>
       <path
@@ -40,7 +38,6 @@ export const Icons = {
     </svg>
   ),
   github: () => (
-    
     <svg width="16px" viewBox="0 0 438.549 438.549">
       <path
         fill="currentColor"
@@ -54,7 +51,7 @@ export const DATA = {
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
     { href: "/projects", icon: Code2, label: "Projects" },
-    { href: "contact", icon: UserRound, label: "Contact Me" }
+    { href: "contact", icon: UserRound, label: "Contact Me" },
   ],
   contact: {
     social: {
@@ -65,7 +62,7 @@ export const DATA = {
       },
       LinkedIn: {
         name: "LinkedIn",
-        url: "www.linkedin.com/in/sindor-olmasov-8848222b7",
+        url: "www.linkedin.com/in/sindorolmasov",
         icon: Icons.linkedin,
       },
       X: {

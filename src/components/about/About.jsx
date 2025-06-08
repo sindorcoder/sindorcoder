@@ -2,6 +2,7 @@ import { HiOutlineEye } from "react-icons/hi";
 import { Link } from "react-router-dom";
 import avatar from "../../assets/images/AvatarAndIcons.svg";
 import { BlurFade } from "../magicui/blur-fade";
+import { TextAnimate } from "../magicui/text-animate";
 const BLUR_FADE_DELAY = 0.04;
 import cv from "../../assets/Sindor O'lmasov.pdf";
 const About = () => {
@@ -23,7 +24,14 @@ const About = () => {
             <div className="w-full">
               <BlurFade delay={BLUR_FADE_DELAY * 5}>
                 <h2 className="title text-[24px] md:text-[30px] text-slate-700">
-                  Hi, I am Sindor
+                  <TextAnimate
+                    animation="blurInUp"
+                    by="character"
+                    duration={1}
+                    once
+                  >
+                    Hi, I am Sindor
+                  </TextAnimate>
                 </h2>
                 <BlurFade delay={BLUR_FADE_DELAY * 7}>
                   <p className="text-[12px] md:text-[16px] text font-bold mt-13px">

@@ -13,10 +13,11 @@
 }
 * {
   scroll-behavior: smooth;
+  scrollbar-width: none;
 }
 body {
   background-color: #e9ecef;
-  padding-block: 14px;
+
 }
 
 .title {
@@ -29,8 +30,6 @@ body {
 .shadow-cm {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
-
-
 
 @layer base {
   :root {
@@ -87,8 +86,6 @@ body {
     --chart-5: 340 75% 55%;
   }
 }
-
-
 
 @layer base {
   * {
