@@ -6,7 +6,7 @@ const BLUR_FADE_DELAY = 0.04;
 
 const Projects = () => {
   return (
-    <section>
+    <section className="mb-[100px] mt-[40px]">
       <div className="w-full p-3">
         <div className="mb-[60px]">
           <BlurFade delay={BLUR_FADE_DELAY * 11}>

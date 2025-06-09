@@ -9,12 +9,23 @@ import { Label } from "../ui/label";
 import { MagicCard } from "../magicui/magic-card";
 import { BlurFade } from "../../components/magicui/blur-fade";
 import { Textarea } from "../ui/textarea";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 const BLUR_FADE_DELAY = 0.04;
 
 const Contact = () => {
   const [isSuccess, setIsSuccess] = useState(false);
+
+
+
+  useEffect(() => {
+
+    if(isSuccess) {
+      setTimeout(() => setIsSuccess(false), 1000);
+    }
+
+  }, [isSuccess]);
+
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -23,13 +34,13 @@ const Contact = () => {
     const email = e.target[2].value;
     const message = e.target[3].value;
 
+
     const templateParams = {
       name: name,
       phone: phone,
       email: email,
       message: message,
     };
-
     emailjs
       .send(
         "service_h5hc1tw",
@@ -49,19 +60,21 @@ const Contact = () => {
   };
 
   return (
-    <section className="relative my-[100px]">
-      {isSuccess && (
-        <div className="flex w-full absolute backdrop-blur-lg backdrop:blur-md items-center justify-center h-full">
-          <div className="grid w-full absolute  mx-auto z-10  max-w-[400px]  items-start gap-4">
-            <Alert>
+    <section className="relative w-full max-w-[700px] mx-auto mb-[100px] mt-[40px]">
+      {isSuccess ? (
+        <div className="flex w-full absolute backdrop-blur-[1px] top-0 left-0 z-10 items-center justify-center h-full">
+          <div className="grid w-full absolute  mx-auto z-10  max-w-[500px]  items-start gap-4">
+            <Alert className="bg-slate-400">
               <CheckCircle2Icon />
-              <AlertTitle>Success! Your changes have been saved</AlertTitle>
+              <AlertTitle>Success! Your Send message In Here </AlertTitle>
               <AlertDescription>
-                This is an alert with icon, title and description.
+                Your message has been sent successfully. Thank you for reaching out!
               </AlertDescription>
             </Alert>
           </div>
         </div>
+      ) : (
+        ""
       )}
 
       <div className="my-[60px]">
@@ -95,6 +108,7 @@ const Contact = () => {
                       <div className="grid gap-2">
                         <Label htmlFor="name">Name</Label>
                         <Input
+                          required
                           id="name"
                           name="name"
                           type="text"
@@ -106,6 +120,7 @@ const Contact = () => {
                       <div className="grid gap-2">
                         <Label htmlFor="phone">Phone</Label>
                         <Input
+                          required
                           id="phone"
                           name="phone"
                           type="text"
@@ -117,6 +132,7 @@ const Contact = () => {
                       <div className="grid gap-2">
                         <Label htmlFor="email">Email</Label>
                         <Input
+                          required
                           id="email"
                           name="email"
                           type="email"
@@ -128,6 +144,7 @@ const Contact = () => {
                       <div className="grid gap-2">
                         <Label htmlFor="message">Message</Label>
                         <Textarea
+                          required
                           id="message"
                           name="message"
                           rows={5}
