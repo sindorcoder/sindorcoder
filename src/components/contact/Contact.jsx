@@ -16,28 +16,20 @@ const BLUR_FADE_DELAY = 0.04;
 const Contact = () => {
   const [isSuccess, setIsSuccess] = useState(false);
 
-
-
   useEffect(() => {
-
-    if(isSuccess) {
+    if (isSuccess) {
       setTimeout(() => setIsSuccess(false), 1000);
     }
-
   }, [isSuccess]);
-
 
   const handleSubmit = (e) => {
     e.preventDefault();
     const name = e.target[0].value;
-    const phone = e.target[1].value;
     const email = e.target[2].value;
     const message = e.target[3].value;
 
-
     const templateParams = {
       name: name,
-      phone: phone,
       email: email,
       message: message,
     };
@@ -68,7 +60,8 @@ const Contact = () => {
               <CheckCircle2Icon />
               <AlertTitle>Success! Your Send message In Here </AlertTitle>
               <AlertDescription>
-                Your message has been sent successfully. Thank you for reaching out!
+                Your message has been sent successfully. Thank you for reaching
+                out!
               </AlertDescription>
             </Alert>
           </div>
@@ -116,18 +109,7 @@ const Contact = () => {
                         />
                       </div>
                     </BlurFade>
-                    <BlurFade delay={BLUR_FADE_DELAY * 6}>
-                      <div className="grid gap-2">
-                        <Label htmlFor="phone">Phone</Label>
-                        <Input
-                          required
-                          id="phone"
-                          name="phone"
-                          type="text"
-                          placeholder="+998 (99) 999 99 99"
-                        />
-                      </div>
-                    </BlurFade>
+
                     <BlurFade delay={BLUR_FADE_DELAY * 7}>
                       <div className="grid gap-2">
                         <Label htmlFor="email">Email</Label>
