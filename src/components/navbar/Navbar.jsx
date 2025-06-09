@@ -54,8 +54,8 @@ const Navbar = () => {
                 <DockIcon key={name} className=" hidden md:flex">
                   <Tooltip>
                     <TooltipTrigger asChild>
-                      <a
-                        href={social.url}
+                      <Link
+                        to={social.url}
                         aria-label={social.name}
                         target="_blank"
                         rel="noopener noreferrer"
@@ -65,7 +65,7 @@ const Navbar = () => {
                         )}
                       >
                         <social.icon className="size-4" />
-                      </a>
+                      </Link>
                     </TooltipTrigger>
                     <TooltipContent>
                       <p>{name}</p>
