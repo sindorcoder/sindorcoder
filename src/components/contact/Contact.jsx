@@ -10,6 +10,7 @@ import { MagicCard } from "../magicui/magic-card";
 import { BlurFade } from "../../components/magicui/blur-fade";
 import { Textarea } from "../ui/textarea";
 import { useEffect, useState } from "react";
+import { currentTime } from "../../lib/time";
 
 const BLUR_FADE_DELAY = 0.04;
 
@@ -18,7 +19,7 @@ const Contact = () => {
 
   useEffect(() => {
     if (isSuccess) {
-      setTimeout(() => setIsSuccess(false), 1000);
+      setTimeout(() => setIsSuccess(false), 1500);
     }
   }, [isSuccess]);
 
@@ -32,6 +33,7 @@ const Contact = () => {
       name: name,
       email: email,
       message: message,
+      time: currentTime,
     };
     emailjs
       .send(
