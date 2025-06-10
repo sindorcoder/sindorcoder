@@ -17,7 +17,6 @@
 }
 body {
   background-color: #e9ecef;
-
 }
 
 .title {
@@ -29,6 +28,10 @@ body {
 
 .shadow-cm {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.shadow-gradient {
+  box-shadow: rgb(13, 251, 0) 0px 0px 10px;
 }
 
 @layer base {

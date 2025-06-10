@@ -26,11 +26,13 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     const name = e.target[0].value;
-    const email = e.target[1].value;
-    const message = e.target[2].value;
+    const phone = e.target[1].value
+    const email = e.target[2].value;
+    const message = e.target[3].value;
 
     const templateParams = {
       name: name,
+      phone: phone,
       email: email,
       message: message,
       time: currentTime,
@@ -74,6 +76,7 @@ const Contact = () => {
 
       <div className="my-[60px]">
         <BlurFade delay={BLUR_FADE_DELAY * 11}>
+          
           <div className="flex flex-col items-center justify-center space-y-4 text-center">
             <div className="space-y-2">
               <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm">
@@ -108,6 +111,18 @@ const Contact = () => {
                           name="name"
                           type="text"
                           placeholder="John Doe"
+                        />
+                      </div>
+                    </BlurFade>
+                    <BlurFade delay={BLUR_FADE_DELAY * 5}>
+                      <div className="grid gap-2">
+                        <Label htmlFor="phone">Telegram NickName or Phone number</Label>
+                        <Input
+                          required
+                          id="phone"
+                          name="phone"
+                          type="text"
+                          placeholder="@John Or +998 (99) 999 99 99"
                         />
                       </div>
                     </BlurFade>

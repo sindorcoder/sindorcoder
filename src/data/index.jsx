@@ -218,15 +218,4 @@ export const education = [
   },
 ];
 
-// export const contactData = [
-//   {
-//     src: linkedin,
-//     alt: "linkedin",
-//     link: "https://www.linkedin.com/in/sindor-olmasov-8848222b7/",
-//   },
-//   { src: github, alt: "github", link: "https://github.com/sindorcoder" },
-//   { src: telegram, alt: "telegram", link: "https://t.me/sindor_712" },
-//   { src: gmail, alt: "GMAIL", link: "mailto:sindor77@gmail.com" },
-// ];
-
 export default projectData;

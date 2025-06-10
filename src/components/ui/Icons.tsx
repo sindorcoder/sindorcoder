@@ -1,15 +1,15 @@
 import * as React from "react";
 import {
   GlobeIcon,
-  CalendarIcon,
   HomeIcon,
   MailIcon,
   PencilIcon,
   Code2,
   PhoneIcon,
-  UserRound,
+  FileText,
 } from "lucide-react";
 export type IconProps = React.HTMLAttributes<SVGElement>;
+import resume from "../../assets/sindor.pdf";
 
 export const Icons = {
   globe: () => <GlobeIcon className="size-4" />,
@@ -18,7 +18,7 @@ export const Icons = {
   code: () => <Code2 className="size-4" />,
   email: () => <MailIcon className="size-4" />,
   phone: () => <PhoneIcon className="size-4" />,
-  contact: () => <UserRound className="size-4" />,
+  resume: () => <FileText className="size-4" />,
   linkedin: () => (
     <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
       <title>LinkedIn</title>
@@ -51,7 +51,6 @@ export const DATA = {
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
     { href: "/projects", icon: Code2, label: "Projects" },
-    { href: "contact", icon: UserRound, label: "Contact Me" },
   ],
   contact: {
     social: {
@@ -79,6 +78,11 @@ export const DATA = {
         name: "Call Phone",
         url: "tel:+998906027875",
         icon: Icons.phone,
+      },
+      resume: {
+        name: "Call Phone",
+        url: resume,
+        icon: Icons.resume,
       },
     },
   },

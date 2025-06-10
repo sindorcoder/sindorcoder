@@ -54,9 +54,9 @@ export const ResumeCard = ({
             <AvatarFallback>{altText[0]}</AvatarFallback>
           </Avatar>
         </div>
-        <div className="flex-grow ml-4 items-center flex-col group">
+        <div className="flex-grow ml-4 items-center gap-10 flex-col group">
           <CardHeader>
-            <div className="flex items-center justify-between gap-x-2 text-base">
+            <div className="flex items-center gap-28 justify-between  text-base">
               <h3 className="inline-flex items-center justify-center font-semibold leading-none text-xs sm:text-sm">
                 {title}
                 {badges && (
