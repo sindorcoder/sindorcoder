@@ -19,6 +19,15 @@ export const Icons = {
   email: () => <MailIcon className="size-4" />,
   phone: () => <PhoneIcon className="size-4" />,
   resume: () => <FileText className="size-4" />,
+    telegram: () => (
+    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+      <title>Telegram</title>
+      <path
+        fill="currentColor"
+        d="M12 0C5.372 0 0 5.373 0 12c0 6.627 5.372 12 12 12s12-5.373 12-12c0-6.627-5.372-12-12-12zm5.478 8.094-1.882 8.898c-.141.621-.511.765-1.034.476l-2.87-2.125-1.383 1.33c-.153.154-.282.282-.576.282l.206-2.901 5.292-4.776c.231-.206-.05-.321-.357-.114L7.91 11.13l-2.817-.884c-.613-.192-.625-.613.128-.91L15.55 7.07c.511-.192.957.206.928.476z"
+      />
+    </svg>
+  ),
   linkedin: () => (
     <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
       <title>LinkedIn</title>
@@ -55,7 +64,11 @@ export const DATA = {
         url: "www.linkedin.com/in/sindorolmasov",
         icon: Icons.linkedin,
       },
-      
+      Telegram: {
+        name: "Telegram",
+        url: "https://t.me/sindor_712"
+        icon: Icons.telegram,
+      },
       email: {
         name: "Send Email",
         url: "mailto:sindordev77@gmail.com",
