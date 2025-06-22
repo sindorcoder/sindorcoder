@@ -19,7 +19,7 @@ export const Icons = {
   email: () => <MailIcon className="size-4" />,
   phone: () => <PhoneIcon className="size-4" />,
   resume: () => <FileText className="size-4" />,
-    telegram: () => (
+  telegram: () => (
     <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
       <title>Telegram</title>
       <path
@@ -80,7 +80,7 @@ export const DATA = {
         icon: Icons.phone,
       },
       resume: {
-        name: "Call Phone",
+        name: "view resume",
         url: resume,
         icon: Icons.resume,
       },
