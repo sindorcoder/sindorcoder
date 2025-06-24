@@ -66,7 +66,7 @@ export const DATA = {
       },
       Telegram: {
         name: "Telegram",
-        url: "https://t.me/sindor_712"
+        url: "https://t.me/sindor_712",
         icon: Icons.telegram,
       },
       email: {
