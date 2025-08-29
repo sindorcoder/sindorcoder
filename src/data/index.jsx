@@ -2,8 +2,6 @@ import translate from "../assets/images/translate.png";
 
 import dinorama from "../assets/images/dinorama.png";
 import expence from "../assets/images/exchange.png";
-import ecommerce from "../assets/images/ecomerce.png";
-import candleaf from "../assets/images/candleaf.png";
 import makeUps from "../assets/images/makeUps.png";
 import weather from "../assets/images/weather.png";
 import info from "../assets/images/info.png";
@@ -105,44 +103,6 @@ const projectData = [
     ],
     type: ["HTML", "Tailwind", "TypeScript"],
     image: expence,
-  },
-
-  {
-    title: "E-COMMERCE",
-    text: "Platform for an online store. Developed using HTML, CSS, and Javascript.",
-    links: [
-      {
-        type: "Website",
-        href: "https://imtixon-5-teal.vercel.app/",
-        icon: <Icons.globe />,
-      },
-      {
-        type: "Source",
-        href: "https://github.com/sindorcoder/E-COM",
-        icon: <Icons.github />,
-      },
-    ],
-    type: ["HTML", "CSS", "Javascript"],
-    image: ecommerce,
-  },
-
-  {
-    title: "Candleaf",
-    text: "E-commerce app for candle products. Built with TypeScript, ReactJS, and Tailwind.",
-    links: [
-      {
-        type: "Website",
-        href: "https://candleaf-tan.vercel.app/",
-        icon: <Icons.globe />,
-      },
-      {
-        type: "Source",
-        href: "https://github.com/sindorcoder/Candleaf",
-        icon: <Icons.github />,
-      },
-    ],
-    type: ["TypeScript", "ReactJS", "Tailwind"],
-    image: candleaf,
   },
   {
     title: "Make up",
