@@ -91,10 +91,10 @@
 
 ###
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sindorcoder/sindorcoder/output/pacman-contribution-graph-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/sindorcoder/sindorcoder/output/pacman-contribution-graph.svg">
-  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/sindorcoder/sindorcoder/output/pacman-contribution-graph.svg">
-</picture>
+<p align="start">
+  <a href="https://github.com/Aronno1920">
+    <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=sindorcoder&theme=dark&hide_border=true&hide_title=true" alt="GitHub Profile Summary">
+  </a>
+</p>
 
 ###
