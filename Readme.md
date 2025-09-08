@@ -92,7 +92,7 @@
 ###
 
 <p align="start">
-  <a href="https://github.com/Aronno1920">
+  <a href="https://github.com/sindorcoder">
     <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=sindorcoder&theme=dark&hide_border=true&hide_title=true" alt="GitHub Profile Summary">
   </a>
 </p>
