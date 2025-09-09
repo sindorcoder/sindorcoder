@@ -1,7 +1,4 @@
-import translate from "../assets/images/translate.png";
-
 import dinorama from "../assets/images/dinorama.png";
-import expence from "../assets/images/exchange.png";
 import makeUps from "../assets/images/makeUps.png";
 import weather from "../assets/images/weather.png";
 import info from "../assets/images/info.png";
@@ -51,24 +48,6 @@ const projectData = [
   },
 
   {
-    title: "Translate",
-    text: "An app for translating texts. Built with React and Tailwind.",
-    links: [
-      {
-        type: "Website",
-        href: "https://translate-six-pi.vercel.app/",
-        icon: <Icons.globe />,
-      },
-      {
-        type: "Source",
-        href: "https://github.com/sindorcoder/Translate",
-        icon: <Icons.github />,
-      },
-    ],
-    type: ["React Js", "Tailwind"],
-    image: translate,
-  },
-  {
     title: "Dinorama Shop",
     text: "E-commerce platform for a dinosaur shop. Built with React, Tailwind, and shadCN.",
     links: [
@@ -85,24 +64,6 @@ const projectData = [
     ],
     type: ["ReactJS", "Tailwind", "shadCN"],
     image: dinorama,
-  },
-  {
-    title: "Expence and Income",
-    text: "An app for managing income and expenses. Built with HTML, Tailwind, and TypeScript.",
-    links: [
-      {
-        type: "Website",
-        href: "https://exchange-sable.vercel.app/",
-        icon: <Icons.globe />,
-      },
-      {
-        type: "Source",
-        href: "https://github.com/sindorcoder/Exchange",
-        icon: <Icons.github />,
-      },
-    ],
-    type: ["HTML", "Tailwind", "TypeScript"],
-    image: expence,
   },
   {
     title: "Make up",
