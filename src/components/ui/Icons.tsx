@@ -61,7 +61,7 @@ export const DATA = {
       },
       LinkedIn: {
         name: "LinkedIn",
-        url: "www.linkedin.com/in/sindorolmasov",
+        url: "https://www.linkedin.com/in/sindorolmasov",
         icon: Icons.linkedin,
       },
       Telegram: {
