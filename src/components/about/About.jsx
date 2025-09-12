@@ -1,19 +1,18 @@
-import avatar from "../../assets/icons/AvatarAndIcons.svg";
-import gif from "../../assets/images/hello.gif";
+import avatar from "../../assets/icons/avatar.png";
 import { BlurFade } from "../magicui/blur-fade";
 import { TextAnimate } from "../magicui/text-animate";
 const BLUR_FADE_DELAY = 0.04;
 const About = () => {
   return (
     <>
-      <section className="mb-[150px]">
+      <section className="mb-[40px]">
         <div className="flex items-center">
-          <div className="grid grid-cols-1 place-content-center text-center place-items-center items-center gap-[70px]">
-            <div className="mt-[52px] flex justify-center md:block">
+          <div className="flex flex-col w-full items-center gap-5">
+            <div className="mt-[50px] flex justify-center md:block">
               <BlurFade delay={BLUR_FADE_DELAY * 3}>
                 <img
                   src={avatar}
-                  className="w-[250px] h-[250px] md:w-[400px] md:h-[400px]"
+                  className="w-[80px] h-[80px] rounded-full "
                   alt="avatar"
                   loading="lazy"
                 />
@@ -21,39 +20,26 @@ const About = () => {
             </div>
             <div className="w-full">
               <BlurFade delay={BLUR_FADE_DELAY * 5}>
-                <h2 className="title flex items-center justify-center text-[24px] md:text-[30px] text-black">
+                <h6 className="title flex items-center justify-center text-[15px]  text-black">
                   <TextAnimate
                     animation="blurInUp"
                     by="character"
                     duration={1}
                     once
                   >
-                    Hi, I am Sindor
+                     O&#39;lmasov Sindor
                   </TextAnimate>
-                  <img
-                    src={gif}
-                    width={100}
-                    height={100}
-                    loading="lazy"
-                    alt="Hello I am Sindor"
-                  />
-                </h2>
-                <div className="flex items-start justify-start mt-10 mb-2">
-                  <BlurFade delay={BLUR_FADE_DELAY * 7}>
-                    <h2 className="text-xl font-bold  ">About</h2>
-                  </BlurFade>
-                </div>
-                <BlurFade delay={BLUR_FADE_DELAY * 7}>
-                  <p className="text-[12px] md:text-[16px] text-start text font-bold mt-13px">
-                    As a passionate frontend developer from Uzbekistan, I
-                    approach every project with enthusiasm, striving to infuse
-                    my work with creativity and dedication. I find joy in
-                    continuously expanding my knowledge and sharing it with
-                    others. Helping people is something I hold dear, and I
-                    always seek to make a positive impact through my skills and
-                    efforts.
-                  </p>
-                </BlurFade>
+                </h6>
+                  <span className="flex items-center justify-center text-[16px]  text-[#525252]">
+                      <TextAnimate
+                          animation="blurInUp"
+                          by="character"
+                          duration={1}
+                          once
+                      >
+                          Frontend Developer
+                      </TextAnimate>
+                  </span>
               </BlurFade>
             </div>
           </div>
