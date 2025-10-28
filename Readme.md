@@ -43,23 +43,16 @@
 ###
 
 <div align="left">
-  <a href="https://www.linkedin.com/in/sindorolmasov/" target="_blank">
-    <!-- <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="52" height="40" alt="linkedin logo"  /> -->
-    ![medium-light-linkedin](medium/light/linkedin.svg)
+  <a  href="https://www.linkedin.com/in/sindorolmasov/" target="_blank">
+    <img src="https://raw.githubusercontent.com/CLorant/readme-social-icons/main/medium/filled/linkedin.svg" width="52px" height="40px" />
   </a>
   <a href="https://x.com/sindorcoder" target="_blank">
-    <!-- <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/twitter/default.svg" width="52" height="40" alt="twitter logo"  /> -->
-    ![medium-light-twitter-x](medium/light/twitter-x.svg)
-  </a>
-  <a href="https://www.instagram.com/ulmasovvv.701/" target="_blank">
-    <!-- <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/instagram/default.svg" width="52" height="40" alt="instagram logo"  /> -->
-    ![medium-light-instagram](medium/light/instagram.svg)
+    <img src="https://raw.githubusercontent.com/CLorant/readme-social-icons/main/medium/filled/twitter-x.svg" width="52px" height="40px" />
   </a>
   <a href="mailto:sindordev77@gmail.com" target="_blank">
     <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/gmail/default.svg" width="52" height="40" alt="gmail logo"  />
   </a>
   <a href="https://t.me/sindor_712" target="_blank">
-    <!-- <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/telegram/default.svg" width="52" height="40" alt="telegram logo"  /> -->
-    ![small-colored-telegram](small/colored/telegram.svg)
+    <img src="https://raw.githubusercontent.com/CLorant/readme-social-icons/main/medium/filled/telegram.svg" width="52px" height="40px" />
   </a>
 </div>
