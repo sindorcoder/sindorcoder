@@ -34,8 +34,6 @@
   <img src="https://iconic-api.onrender.com/dark/tailwind" width="64px" />
   <img width="12" />
   <img src="https://iconic-api.onrender.com/dark/redux" width="64px" />
-  <img width="12" />
-  <img src="https://cdn.simpleicons.org/redux/764ABC" height="40" alt="redux logo"  />
 </div>
 
 ###
