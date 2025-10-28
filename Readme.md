@@ -43,16 +43,16 @@
 ###
 
 <div align="left">
-  <a  href="https://www.linkedin.com/in/sindorolmasov/" target="_blank">
-    <img src="https://raw.githubusercontent.com/CLorant/readme-social-icons/main/medium/filled/linkedin.svg" width="52px" height="40px" />
+  <a style="text-decoration:none;" href="https://www.linkedin.com/in/sindorolmasov/" target="_blank">
+    <img style="display:inline-block;" src="https://raw.githubusercontent.com/CLorant/readme-social-icons/main/medium/filled/linkedin.svg" width="52px" height="40px" />
   </a>
-  <a href="https://x.com/sindorcoder" target="_blank">
-    <img src="https://raw.githubusercontent.com/CLorant/readme-social-icons/main/medium/filled/twitter-x.svg" width="52px" height="40px" />
+  <a style="text-decoration:none;" href="https://x.com/sindorcoder" target="_blank">
+    <img style="display:inline-block;" src="https://raw.githubusercontent.com/CLorant/readme-social-icons/main/medium/filled/twitter-x.svg" width="52px" height="40px" />
   </a>
-  <a href="mailto:sindordev77@gmail.com" target="_blank">
-    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/gmail/default.svg" width="52" height="40" alt="gmail logo"  />
+  <a style="text-decoration:none;" href="mailto:sindordev77@gmail.com" target="_blank">
+    <img style="display:inline-block;" src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/gmail/default.svg" width="52" height="40" alt="gmail logo"  />
   </a>
-  <a href="https://t.me/sindor_712" target="_blank">
-    <img src="https://raw.githubusercontent.com/CLorant/readme-social-icons/main/medium/filled/telegram.svg" width="52px" height="40px" />
+  <a style="text-decoration:none;" href="https://t.me/sindor_712" target="_blank">
+    <img style="display:inline-block;" src="https://raw.githubusercontent.com/CLorant/readme-social-icons/main/medium/filled/telegram.svg" width="52px" height="40px" />
   </a>
 </div>
