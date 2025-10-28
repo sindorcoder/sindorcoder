@@ -61,13 +61,4 @@
     <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/telegram/default.svg" width="52" height="40" alt="telegram logo"  />
   </a>
 </div>
-
-###
-
-<p align="start">
-  <a href="https://github.com/sindorcoder">
-    <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=sindorcoder&theme=dark&hide_border=true&hide_title=true" alt="GitHub Profile Summary">
-  </a>
-</p>
-
 ###
