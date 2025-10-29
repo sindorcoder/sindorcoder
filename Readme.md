@@ -49,30 +49,24 @@
 
 <p align="left" style="display:flex;">
 
-  <a href="https://www.linkedin.com/in/sindorolmasov/" target="_blank"
-     style="text-decoration:none;  transition:transform 0.2s ease;">
+  <a href="https://www.linkedin.com/in/sindorolmasov/" target="_blank">
     <img src="https://raw.githubusercontent.com/CLorant/readme-social-icons/main/medium/filled/linkedin.svg"
-         width="52" height="40" alt="LinkedIn"
-         style="border-radius:8px;"/>
+         width="52" height="40" alt="LinkedIn"/>
   </a>
 
-  <a href="https://x.com/sindorcoder" target="_blank"
-     style="text-decoration:none; ">
+  <a href="https://x.com/sindorcoder" target="_blank" >
     <img src="https://raw.githubusercontent.com/CLorant/readme-social-icons/main/medium/filled/twitter-x.svg"
-         width="52" height="40" alt="X (Twitter)"
-         style="border-radius:8px;"/>
+         width="52" height="40" alt="X (Twitter)"/>
   </a>
 
-  <a href="mailto:sindordev77@gmail.com" target="_blank"
-     style="text-decoration:none; ">
+  <a href="mailto:sindordev77@gmail.com" target="_blank">
     <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/gmail/default.svg"
-         width="52" height="40" alt="Gmail" style="border-radius:8px;"/>
+         width="52" height="40" alt="Gmail" />
   </a>
 
-  <a href="https://t.me/sindor_712" target="_blank"
-     style="text-decoration:none;">
+  <a href="https://t.me/sindor_712" target="_blank">
     <img src="https://raw.githubusercontent.com/CLorant/readme-social-icons/main/medium/filled/telegram.svg"
-         width="52" height="40" alt="Telegram" style="border-radius:8px;"/>
+         width="52" height="40" alt="Telegram" />
   </a>
 
 </p>
