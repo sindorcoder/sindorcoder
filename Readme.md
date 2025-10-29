@@ -2,7 +2,7 @@
 
 ###
 
-<h5 align="left">My name is Sindor  and I'm  from Uzbekistan I'm living Samarkand</h5>
+<h5 align="left">My name is Sindor and I'm from Uzbekistan, living in Samarkand 🇺🇿</h5>
 
 ###
 
@@ -10,7 +10,12 @@
 
 ###
 
-<p align="left">✨ Creating bugs since give a quick solution<br>📚 I'm currently learning News about my profession<br>🎯 Goals: get to the senior level<br>🎲 Fun fact: table tennis and video game</p>
+<p align="left">
+  ✨ Creating bugs since I give quick solutions<br>
+  📚 Currently learning new things about my profession<br>
+  🎯 Goal: Reach senior level<br>
+  🎲 Fun fact: I love table tennis & video games
+</p>
 
 ###
 
@@ -38,21 +43,36 @@
 
 ###
 
-<h5 align="left">My Social Network</h5>
+<h2 align="left">My Social Network</h2>
 
 ###
 
-<div align="left">
-  <a style="text-decoration:none;" href="https://www.linkedin.com/in/sindorolmasov/" target="_blank">
-    <img style="display:inline-block;" src="https://raw.githubusercontent.com/CLorant/readme-social-icons/main/medium/filled/linkedin.svg" width="52px" height="40px" />
+<p align="left" style="display:flex;">
+
+  <a href="https://www.linkedin.com/in/sindorolmasov/" target="_blank"
+     style="text-decoration:none;  transition:transform 0.2s ease;">
+    <img src="https://raw.githubusercontent.com/CLorant/readme-social-icons/main/medium/filled/linkedin.svg"
+         width="52" height="40" alt="LinkedIn"
+         style="border-radius:8px;"/>
   </a>
-  <a style="text-decoration:none;" href="https://x.com/sindorcoder" target="_blank">
-    <img style="display:inline-block;" src="https://raw.githubusercontent.com/CLorant/readme-social-icons/main/medium/filled/twitter-x.svg" width="52px" height="40px" />
+
+  <a href="https://x.com/sindorcoder" target="_blank"
+     style="text-decoration:none; ">
+    <img src="https://raw.githubusercontent.com/CLorant/readme-social-icons/main/medium/filled/twitter-x.svg"
+         width="52" height="40" alt="X (Twitter)"
+         style="border-radius:8px;"/>
   </a>
-  <a style="text-decoration:none;" href="mailto:sindordev77@gmail.com" target="_blank">
-    <img style="display:inline-block;" src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/gmail/default.svg" width="52" height="40" alt="gmail logo"  />
+
+  <a href="mailto:sindordev77@gmail.com" target="_blank"
+     style="text-decoration:none; ">
+    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/gmail/default.svg"
+         width="52" height="40" alt="Gmail" style="border-radius:8px;"/>
   </a>
-  <a style="text-decoration:none;" href="https://t.me/sindor_712" target="_blank">
-    <img style="display:inline-block;" src="https://raw.githubusercontent.com/CLorant/readme-social-icons/main/medium/filled/telegram.svg" width="52px" height="40px" />
+
+  <a href="https://t.me/sindor_712" target="_blank"
+     style="text-decoration:none;">
+    <img src="https://raw.githubusercontent.com/CLorant/readme-social-icons/main/medium/filled/telegram.svg"
+         width="52" height="40" alt="Telegram" style="border-radius:8px;"/>
   </a>
-</div>
+
+</p>
