@@ -1,5 +1,5 @@
 import { BlurFade } from "../../components/magicui/blur-fade";
-import github from "../../assets/icons/githubProfile.svg";
+import github from "../../assets/githubProfile.svg";
 import { Link } from "react-router-dom";
 const BLUR_FADE_DELAY = 0.04;
 const Skills = () => {
