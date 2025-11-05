@@ -45,19 +45,13 @@ const Skills = () => {
         </div>
       </BlurFade>
       <div className="flex items-center justify-center mt-10">
+        <BlurFade delay={BLUR_FADE_DELAY * 10 + 2 * 0.05}>
         <span className="text-[14px] font-normal text-[#525252] opacity-80">
           © 2025 Sindor Coder | All rights reserved
         </span>
+        </BlurFade>
       </div>
-      {/* <div className="flex min-h-0 flex-col items-center my-10 gap-y-3">
-        <div className="flex flex-wrap gap-1 max-w-[550px]">
-          {techsIcon?.map((skill, id) => (
-            <BlurFade key={skill.name} delay={BLUR_FADE_DELAY * 10 + id * 0.05}>
-              <Badge key={skill.name}>{skill.name}</Badge>
-            </BlurFade>
-          ))}
-        </div>
-      </div> */}
+   
     </section>
   );
 };
