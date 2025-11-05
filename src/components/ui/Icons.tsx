@@ -1,17 +1,18 @@
 import * as React from "react";
-import {FileText, GithubIcon, Linkedin, MailIcon, PhoneIcon,} from "lucide-react";
 // @ts-ignore
 import resume from "../../assets/sindor.pdf";
-import {RiTelegramFill} from "react-icons/ri";
-
+import {RiGithubLine, RiPhoneLine} from "react-icons/ri";
+import {FiLinkedin, FiFile} from "react-icons/fi";
+import { HiOutlineMail } from "react-icons/hi";
+import {TbBrandTelegram} from "react-icons/tb";
 
 export const Icons = {
-    email: () => <MailIcon className="size-5"/>,
-    phone: () => <PhoneIcon className="size-5"/>,
-    resume: () => <FileText className="size-5"/>,
-    telegram: () => <RiTelegramFill className="size-5"/>,
-    github: () => <GithubIcon className="size-5"/>,
-    linkedin: () => <Linkedin className="size-5"/>,
+    email: () => <HiOutlineMail className="size-5"/>,
+    phone: () => <RiPhoneLine className="size-5"/>,
+    resume: () => <FiFile className="size-5"/>,
+    telegram: () => <TbBrandTelegram className="size-5"/>,
+    github: () => <RiGithubLine className="size-5"/>,
+    linkedin: () => <FiLinkedin className="size-5"/>,
 };
 
 export const social =
