@@ -10,12 +10,14 @@
 
 ###
 
-<p align="left">
-  ✨ Creating bugs since I give quick solutions<br>
-  📚 Currently learning new things about my profession<br>
-  🎯 Goal: Reach senior level<br>
-  🎲 Fun fact: I love table tennis & video games
-</p>
+ - ✨ Creating bugs since I give quick solutions<br>
+ - 📚 Currently learning new things about my profession<br>
+  - 🎯 Goal: Reach senior level<br>
+  - 🎲 Fun fact: I love table tennis & video games
+  - ☕ Coffee lover
+  - 🎮 Gaming enthusiast
+  - 📚 Lifelong learner
+  - 🌱 Open source contributor
 
 ###
 
