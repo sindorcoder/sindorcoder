@@ -1,6 +1,5 @@
 import {BlurFade} from "../magicui/blur-fade.tsx";
 import github from "../../assets/githubProfile.svg";
-import {Link} from "react-router-dom";
 
 const BLUR_FADE_DELAY = 0.04;
 const Skills = () => {
@@ -41,11 +40,11 @@ const Skills = () => {
             </div>
         </BlurFade>
         <div className="flex items-center justify-center mt-10">
-       <BlurFade delay={BLUR_FADE_DELAY * 10 + 2 * 0.05}>
+            <BlurFade delay={BLUR_FADE_DELAY * 10 + 2 * 0.05}>
             <span className="text-[14px] font-normal text-[#525252] opacity-80">
           © 2025 Sindor Coder | All rights reserved
         </span>
-       </BlurFade>
+            </BlurFade>
         </div>
     </section>);
 };
