@@ -7,12 +7,12 @@ const BLUR_FADE_DELAY = 0.04;
 const Contact = () => {
   return (
     <>
-      <div className={"flex flex-wrap w-full justify-center gap-2"}>
+      <div className={"flex flex-wrap w-full justify-between gap-2"}>
         {social.map((social, index) => (
           <Fragment key={index}>
             <BlurFade
               delay={BLUR_FADE_DELAY * 10 + index * 0.1}
-              className={"flex  gap-2"}
+              className={"flex  gap-4"}
             >
               <Link
                 to={social.url}
