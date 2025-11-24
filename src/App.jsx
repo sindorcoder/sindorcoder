@@ -1,10 +1,13 @@
-import Home from "./routes/home/Home.jsx";
+import About from "./components/about/About.jsx";
+import Contact from "./components/contact/Contact.jsx";
+import Skills from "./components/skills/Skills.jsx";
+
 function App() {
-  return (
-    <div className="max-w-[800px] px-5 mx-auto">
-      <Home/>
-    </div>
-  );
+    return (<div className={'max-w-[500px] px-2 mx-auto'}>
+        <About/>
+        <Contact/>
+        <Skills/>
+    </div>);
 }
 
 export default App;

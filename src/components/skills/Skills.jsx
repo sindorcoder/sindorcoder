@@ -1,4 +1,4 @@
-import {BlurFade} from "../../components/magicui/blur-fade";
+import {BlurFade} from "../magicui/blur-fade.tsx";
 import github from "../../assets/githubProfile.svg";
 import {Link} from "react-router-dom";
 
@@ -7,7 +7,7 @@ const Skills = () => {
     return (<section className="mt-[50px]">
         <BlurFade delay={BLUR_FADE_DELAY * 10 + 2 * 0.05}>
             <div className={"flex justify-center"}>
-                <div className={"p-4 max-w-[500px]  bg-white rounded-2xl"}>
+                <div className={"p-4   bg-white rounded-2xl"}>
                     <div
                         className={"rounded-2xl border overflow-hidden border-gray-300"}
                     >
@@ -31,12 +31,12 @@ const Skills = () => {
                 for new additions.
               </span>
                     </div>
-                    <Link
-                        to={"https://github.com/sindorcoder"}
+                    <a
+                        href={"https://github.com/sindorcoder"}
                         className={"mt-4 inline-block bg-black title px-8 py-2 font-medium text-[10px]  sm:text-[12px] text-white rounded-3xl"}
                     >
                         See Projects
-                    </Link>
+                    </a>
                 </div>
             </div>
         </BlurFade>
