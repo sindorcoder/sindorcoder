@@ -1,4 +1,4 @@
-import avatar from "../../assets/avatar.jpeg";
+import avatar from "../../assets/image.webp";
 import { BlurFade } from "../magicui/blur-fade";
 import { TextAnimate } from "../magicui/text-animate";
 const BLUR_FADE_DELAY = 0.04;
