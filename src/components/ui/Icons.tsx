@@ -1,18 +1,16 @@
 import * as React from "react";
 // @ts-ignore
 import resume from "../../assets/sindor.pdf";
-import {RiGithubLine, RiPhoneLine} from "react-icons/ri";
-import {FiLinkedin, FiFile} from "react-icons/fi";
-import { HiOutlineMail } from "react-icons/hi";
-import {TbBrandTelegram} from "react-icons/tb";
+import {Github, Linkedin, Mail, Phone, Send, File} from "lucide-react";
+
 
 export const Icons = {
-    email: () => <HiOutlineMail className="size-5"/>,
-    phone: () => <RiPhoneLine className="size-5"/>,
-    resume: () => <FiFile className="size-5"/>,
-    telegram: () => <TbBrandTelegram className="size-5"/>,
-    github: () => <RiGithubLine className="size-5"/>,
-    linkedin: () => <FiLinkedin className="size-5"/>,
+    email: ({strokeWidth = 2, size = 15}) => <Mail  size={size} strokeWidth={strokeWidth} />,
+    phone: ({strokeWidth = 2, size = 15}) => <Phone  size={size} strokeWidth={strokeWidth} />,
+    resume: ({strokeWidth = 2, size = 15}) => <File  size={size} strokeWidth={strokeWidth} />,
+    telegram: ({strokeWidth = 2, size = 15}) => <Send  size={size} strokeWidth={strokeWidth} />,
+    github: ({strokeWidth = 2, size = 15}) => <Github size={size} strokeWidth={strokeWidth} />,
+    linkedin: ({strokeWidth = 2, size = 15}) => <Linkedin  size={size} strokeWidth={strokeWidth} />,
 };
 
 export const social =
