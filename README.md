@@ -10,15 +10,15 @@
     🌱 <b>Status:</b> Lifelong Learner & Open Source Contributor
   </p>
 
-  <h3>🚀 Languages and Tools</h3>
+<h3>🚀 Languages and Tools</h3>
 
-  <a href="https://skillicons.dev">
+<a href="https://skillicons.dev">
       <img src="https://skillicons.dev/icons?i=js,ts,react,nextjs,vite,redux,tailwind,git&theme=dark" alt="My Skills" />
-    </a>
+</a>
 
   <br>
 
-  <h3>📫 Connect with me</h3>
+<h3>📫 Connect with me</h3>
 
 <p align="start">
     <a href="https://t.me/sindor_712" target="_blank"><img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram"/></a>
@@ -26,5 +26,5 @@
     <a href="https://x.com/sindorcoder" target="_blank"><img src="https://img.shields.io/badge/Twitter-000000?style=for-the-badge&logo=x&logoColor=white" alt="Twitter"/></a>
     <a href="mailto:sindordev77@gmail.com" target="_blank"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/></a>
   </p>
-  
+
 </div>
