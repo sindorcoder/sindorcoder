@@ -5,7 +5,7 @@ import { TextAnimate } from '../magicui/text-animate'
 const BLUR_FADE_DELAY = 0.04
 const About = () => {
   return (<>
-    <section className="mb-10">
+    <section className="mb-7">
       <div className="flex items-center">
         <div className="flex flex-col w-full items-center gap-5">
           <div className="mt-10 flex justify-center md:block">
@@ -22,7 +22,7 @@ const About = () => {
           </div>
           <div className="w-full">
             <BlurFade delay={BLUR_FADE_DELAY * 5}>
-              <h6 className="title flex items-center justify-center text-[15px]  text-black">
+              <h6 className="title flex items-center justify-center text-[14px]  text-black">
                 <TextAnimate
                   animation="blurInUp"
                   by="character"
@@ -32,7 +32,7 @@ const About = () => {
                   O&#39;lmasov Sindor
                 </TextAnimate>
               </h6>
-              <span className="flex items-center justify-center text-[16px]  text-[#525252]">
+              <span className="flex items-center justify-center text-[15px]  text-[#525252]">
                       <TextAnimate
                         animation="blurInUp"
                         by="character"

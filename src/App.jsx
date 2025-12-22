@@ -3,7 +3,7 @@ import Contact from './components/contact/Contact.jsx'
 import Skills from './components/skills/Skills.jsx'
 
 function App() {
-  return (<div className="max-w-125 px-2 mx-auto">
+  return (<div className="max-w-107 px-2 mx-auto">
     <About/>
     <Contact/>
     <Skills/>
