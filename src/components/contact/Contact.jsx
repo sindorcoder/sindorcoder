@@ -15,7 +15,7 @@ const Contact = () => {
                         href={social.url}
                         target={"_blank"}
                         rel="noopener noreferrer"
-                        className={"bg-white! rounded-xl hover:scale-110 duration-500 shadow border border-[#f5f5f5] p-3.5"}
+                        className={"bg-white rounded-xl hover:scale-110 duration-500 shadow border border-[#f5f5f5] p-3.5"}
                     >
                         {<social.icon size={22} strokeWidth={2.2}/>}
                     </a>
