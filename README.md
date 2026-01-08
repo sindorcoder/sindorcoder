@@ -6,14 +6,13 @@
   <p align="start">
     🔭 <b>Current Focus:</b> Learning new technologies & Best practices<br>
     🎯 <b>Goal:</b> Reaching Senior Developer level<br>
-    🎲 <b>Hobbies:</b> Table Tennis, Video Games & Coffee ☕<br>
-    🌱 <b>Status:</b> Lifelong Learner & Open Source Contributor
+    🎲 <b>Hobbies:</b> Table Tennis, Video Games & Coffee
   </p>
 
 <h3>🚀 Languages and Tools</h3>
 
 <a href="https://skillicons.dev">
-      <img src="https://skillicons.dev/icons?i=js,ts,react,nextjs,vite,redux,tailwind,git&theme=dark" alt="My Skills" />
+      <img src="https://skillicons.dev/icons?i=js,ts,react,nextjs,vite,redux,tailwind,git,webpack&theme=dark" alt="My Skills" />
 </a>
 
   <br>
