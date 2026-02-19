@@ -1,12 +1,10 @@
 <div align="start">
 
-  <h1>Hi there, I'm Sindor! 👋</h1>
-  <h3>Frontend Developer 👨‍💻</h3>
+  <h1>Hi there 👋</h1>
+  <h3>SWE 👨‍💻</h3>
 
   <p align="start">
-    🔭 <b>Current Focus:</b> Learning new technologies & Best practices<br>
-    🎯 <b>Goal:</b> Reaching Senior Developer level<br>
-    🎲 <b>Hobbies:</b> Table Tennis, Video Games & Coffee
+  🎲 <b>Hobbies:</b> Table Tennis, Video Games
   </p>
 
 <h3>🚀 Languages and Tools</h3>
