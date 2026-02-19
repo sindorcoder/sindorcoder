@@ -3,10 +3,6 @@
   <h1>Hi there 👋</h1>
   <h3>SWE 👨‍💻</h3>
 
-  <p align="start">
-  🎲 <b>Hobbies:</b> Table Tennis, Video Games
-  </p>
-
 <h3>🚀 Languages and Tools</h3>
 
 <a href="https://skillicons.dev">
