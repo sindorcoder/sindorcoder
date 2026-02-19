@@ -6,7 +6,7 @@
 <h3>🚀 Languages and Tools</h3>
 
 <a href="https://skillicons.dev">
-      <img src="https://skillicons.dev/icons?i=js,ts,react,nextjs,vite,redux,tailwind,git,webpack&theme=dark" alt="My Skills" />
+      <img src="https://skillicons.dev/icons?i=js,ts,react,nextjs,redux,tailwind,git&theme=dark" alt="My Skills" />
 </a>
 
   <br>
