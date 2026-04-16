@@ -17,7 +17,7 @@ export const social =
   [
     {
       name: "GitHub",
-      url: "https://github.com/sindorcoder",
+      url: "https://github.com/sindor05",
       icon: Icons.github,
     },
     {
