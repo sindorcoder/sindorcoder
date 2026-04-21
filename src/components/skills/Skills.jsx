@@ -33,7 +33,7 @@ const Skills = () => {
               </span>
           </div>
           <a
-            href={'https://github.com/sindor05'}
+            href={'https://github.com/sindorcoder'}
             className={'mt-4 inline-block bg-black  px-5 py-2 text-[12px]  text-white rounded-2xl'}
           >
             See Projects
