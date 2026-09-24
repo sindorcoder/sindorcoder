@@ -13,8 +13,7 @@ export const Icons = {
   linkedin: ({ strokeWidth = 2, size = 24 }) => <Linkedin size={size} strokeWidth={strokeWidth}/>,
 };
 
-export const social =
-  [
+export const social = [
     {
       name: "GitHub",
       url: "https://github.com/sindorcoder",
